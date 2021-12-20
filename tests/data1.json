@@ -1,0 +1,3055 @@
+{
+    "result": {
+        "items": [{
+                "tagValues": {
+                    "IdProfileActive": {
+                        "tagName": "IdProfileActive",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": "1234567890123"
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": "Profile App"
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": null
+                    },
+                    "ProfilesList": {
+                        "tagName": "ProfilesList",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": ["{\"id\":\"1234567890123\",\"name\":\"Migration 1234567890123\",\"priority\":[]}"]
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": 0
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": false
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": false
+                    },
+                    "IdPriorizedDeviceList": {
+                        "tagName": "IdPriorizedDeviceList",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": null
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": "com.kiwigrid.application.schedule\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": null
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:app:profile:ERC05-000099999",
+                        "value": "urn:app:profile:ERC05-000099999"
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.application.schedule.ProfileApp"
+                    }
+                ],
+                "guid": "urn:app:profile:ERC05-000099999"
+            }, {
+                "tagValues": {
+                    "ScheduleEvents": {
+                        "tagName": "ScheduleEvents",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": {}
+                    },
+                    "ExcessMinSleepTime": {
+                        "tagName": "ExcessMinSleepTime",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "ScheduleOverride": {
+                        "tagName": "ScheduleOverride",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "ExcessMinRuntimePerDay": {
+                        "tagName": "ExcessMinRuntimePerDay",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "SchedulesList": {
+                        "tagName": "SchedulesList",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "StateSchedule": {
+                        "tagName": "StateSchedule",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "ExcessMinDuration": {
+                        "tagName": "ExcessMinDuration",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": "urn:app:schedule:ERC05-000099999"
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": false
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": "Schedule App"
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": false
+                    },
+                    "PowerInAverage": {
+                        "tagName": "PowerInAverage",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": "com.kiwigrid.application.schedule\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": null
+                    },
+                    "PowerLimitDefaults": {
+                        "tagName": "PowerLimitDefaults",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": null
+                    },
+                    "ExcessMinRuntime": {
+                        "tagName": "ExcessMinRuntime",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": 0
+                    },
+                    "Schedule": {
+                        "tagName": "Schedule",
+                        "guid": "urn:app:schedule:ERC05-000099999",
+                        "value": []
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.application.schedule.ScheduleApp"
+                    }
+                ],
+                "guid": "urn:app:schedule:ERC05-000099999"
+            }, {
+                "tagValues": {
+                    "DiffuseCorrectionFactors": {
+                        "tagName": "DiffuseCorrectionFactors",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": {
+                            "aaaaaaaa-bbbb-cccc-dddd-000000000002": {
+                                "1": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "10": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "5": {
+                                    "100": 0.0018176345748828141,
+                                    "40": 0.002089255452377305,
+                                    "10": 0.0060185202013740115,
+                                    "80": 0.0039061060577782135,
+                                    "70": 0.004497790418586105,
+                                    "0": 0,
+                                    "90": 0.013921282040549187,
+                                    "50": 0.0019761777419353365,
+                                    "30": 6.645235961819234E-4,
+                                    "20": 0.008395157725612714,
+                                    "60": 7.248297091208781E-4
+                                },
+                                "0": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "21": {
+                                    "100": 2.3468058820968305E-5,
+                                    "40": 1.2379571194255222E-5,
+                                    "10": 2.5433446511299037E-5,
+                                    "80": 6.928046997299093E-4,
+                                    "70": 5.617013684800592E-5,
+                                    "0": 4.6932765151515156E-5,
+                                    "90": 1.9979938941869116E-5,
+                                    "50": 3.200629112956948E-5,
+                                    "30": 4.168741501104287E-5,
+                                    "20": 3.889315467443835E-5,
+                                    "60": 3.263506822210702E-5
+                                },
+                                "14": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "11": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "9": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "2": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "19": {
+                                    "100": 0,
+                                    "40": 4.4248395542799147E-4,
+                                    "10": 2.706696273075583E-5,
+                                    "80": 5.4000293887147334E-6,
+                                    "70": 6.765272335423196E-5,
+                                    "0": 0,
+                                    "90": 9.62889237199582E-5,
+                                    "50": 0.0058957265837001295,
+                                    "30": 0.02327973549544165,
+                                    "20": 1.432825452803901E-4,
+                                    "60": 4.225311764425503E-5
+                                },
+                                "23": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "13": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "8": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "6": {
+                                    "100": 0.01618200828727058,
+                                    "40": 0.010688727794901065,
+                                    "10": 0.025750429143152287,
+                                    "80": 0.0018731822010586965,
+                                    "70": 0.01922110441369115,
+                                    "0": 0,
+                                    "90": 0.03922449936533589,
+                                    "50": 0.014055649619516459,
+                                    "30": 0.017630201717068673,
+                                    "20": 0.021012696421442947,
+                                    "60": 0.013245051067802561
+                                },
+                                "16": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "15": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "12": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "7": {
+                                    "100": 1.4105401380569763E-4,
+                                    "40": 0.0033813991058335205,
+                                    "10": 0.008121264950730235,
+                                    "80": 0.004360052226535289,
+                                    "70": 5.593895855102751E-5,
+                                    "0": 0,
+                                    "90": 0.0094762065683179,
+                                    "50": 1.6075169801462905E-4,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0.005119869981344363
+                                },
+                                "4": {
+                                    "100": 3.66472483455242E-5,
+                                    "40": 9.008689263322883E-5,
+                                    "10": 0,
+                                    "80": 7.884382619296413E-5,
+                                    "70": 2.568600896491858E-5,
+                                    "0": 2.4940090560780214E-5,
+                                    "90": 3.521301511886103E-5,
+                                    "50": 3.185732790984987E-5,
+                                    "30": 4.199736590038314E-5,
+                                    "20": 4.45493050113201E-5,
+                                    "60": 3.3315917798676416E-5
+                                },
+                                "20": {
+                                    "100": 7.838814827513643E-5,
+                                    "40": 0.002573186737989947,
+                                    "10": 0.01952291578033144,
+                                    "80": 0.0053465380413768235,
+                                    "70": 0.005856752693850476,
+                                    "0": 0.013036285717611937,
+                                    "90": 0.0027828290357396284,
+                                    "50": 0.007925892460865572,
+                                    "30": 0.006392999285082257,
+                                    "20": 0.014191905731451774,
+                                    "60": 0.004172361066163369
+                                },
+                                "18": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "17": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "3": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                },
+                                "22": {
+                                    "100": 0,
+                                    "40": 0,
+                                    "10": 0,
+                                    "80": 0,
+                                    "70": 0,
+                                    "0": 0,
+                                    "90": 0,
+                                    "50": 0,
+                                    "30": 0,
+                                    "20": 0,
+                                    "60": 0
+                                }
+                            }
+                        }
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": null
+                    },
+                    "DateNextYieldTrendScheduler": {
+                        "tagName": "DateNextYieldTrendScheduler",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": 1639819920533
+                    },
+                    "DateNextFactorScheduler": {
+                        "tagName": "DateNextFactorScheduler",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": 1639868700000
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": "com.solarwatt.devices.forecast\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": null
+                    },
+                    "DateNextConsumptionTrendScheduler": {
+                        "tagName": "DateNextConsumptionTrendScheduler",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": 1639819860802
+                    },
+                    "WeatherHistory": {
+                        "tagName": "WeatherHistory",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": {
+                            "DE11111": "{\"latitude\":50.12345678901234,\"longitude\":13.12345678901234,\"hourly\":{\"0\":{\"0\":{\"cloudCover\":0.66,\"time\":1639695600,\"icon\":\"partly-cloudy-night\",\"temperature\":4.74},\"1\":{\"cloudCover\":0.69,\"time\":1639699200,\"icon\":\"partly-cloudy-night\",\"temperature\":4.77},\"2\":{\"cloudCover\":0.7,\"time\":1639702800,\"icon\":\"partly-cloudy-night\",\"temperature\":4.73},\"3\":{\"cloudCover\":0.7,\"time\":1639706400,\"icon\":\"partly-cloudy-night\",\"temperature\":4.81},\"4\":{\"cloudCover\":0.72,\"time\":1639710000,\"icon\":\"partly-cloudy-night\",\"temperature\":4.72},\"5\":{\"cloudCover\":0.74,\"time\":1639713600,\"icon\":\"partly-cloudy-night\",\"temperature\":3.98},\"6\":{\"cloudCover\":0.77,\"time\":1639717200,\"icon\":\"partly-cloudy-night\",\"temperature\":3.98},\"7\":{\"cloudCover\":0.95,\"time\":1639720800,\"icon\":\"cloudy\",\"temperature\":3.89},\"8\":{\"cloudCover\":0.97,\"time\":1639724400,\"icon\":\"cloudy\",\"temperature\":3.17},\"9\":{\"cloudCover\":0.94,\"time\":1639728000,\"icon\":\"cloudy\",\"temperature\":3.15},\"10\":{\"cloudCover\":0.93,\"time\":1639731600,\"icon\":\"cloudy\",\"temperature\":3.17},\"11\":{\"cloudCover\":0.93,\"time\":1639735200,\"icon\":\"cloudy\",\"temperature\":3.21},\"12\":{\"cloudCover\":0.93,\"time\":1639738800,\"icon\":\"cloudy\",\"temperature\":3.46},\"13\":{\"cloudCover\":0.93,\"time\":1639742400,\"icon\":\"cloudy\",\"temperature\":4.36},\"14\":{\"cloudCover\":0.96,\"time\":1639746000,\"icon\":\"cloudy\",\"temperature\":4.51},\"15\":{\"cloudCover\":0.95,\"time\":1639749600,\"icon\":\"cloudy\",\"temperature\":4.51},\"16\":{\"cloudCover\":0.78,\"time\":1639753200,\"icon\":\"partly-cloudy-night\",\"temperature\":4.15},\"17\":{\"cloudCover\":0.8,\"time\":1639756800,\"icon\":\"partly-cloudy-night\",\"temperature\":4.26},\"18\":{\"cloudCover\":0.8,\"time\":1639760400,\"icon\":\"partly-cloudy-night\",\"temperature\":4.15},\"19\":{\"cloudCover\":0.98,\"time\":1639764000,\"icon\":\"cloudy\",\"temperature\":4.71},\"20\":{\"cloudCover\":0.92,\"time\":1639767600,\"icon\":\"cloudy\",\"temperature\":4.58},\"21\":{\"cloudCover\":0.92,\"time\":1639771200,\"icon\":\"cloudy\",\"temperature\":4.45},\"22\":{\"cloudCover\":0.9,\"time\":1639774800,\"icon\":\"cloudy\",\"temperature\":3.66},\"23\":{\"cloudCover\":0.9,\"time\":1639778400,\"icon\":\"cloudy\",\"temperature\":3.57}}},\"daily\":{\"0\":{\"cloudCover\":0.86,\"time\":1639695600,\"icon\":\"rain\",\"sunsetTime\":1639753200,\"sunriseTime\":1639724700,\"temperatureMin\":2.84,\"temperatureMax\":5.1,\"precipIntensity\":0.0076}}}"
+                        }
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": 0
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": null
+                    },
+                    "WeatherForecast": {
+                        "tagName": "WeatherForecast",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": {
+                            "DE11111": "{\"latitude\":50.12345678901234,\"longitude\":13.12345678901234,\"hourly\":{\"0\":{\"0\":{\"cloudCover\":0.91,\"time\":1639782000,\"icon\":\"cloudy\",\"temperature\":3.6},\"1\":{\"cloudCover\":0.99,\"time\":1639785600,\"icon\":\"cloudy\",\"temperature\":3.81},\"2\":{\"cloudCover\":1,\"time\":1639789200,\"icon\":\"cloudy\",\"temperature\":3.84},\"3\":{\"cloudCover\":0.99,\"time\":1639792800,\"icon\":\"cloudy\",\"temperature\":3.86},\"4\":{\"cloudCover\":0.98,\"time\":1639796400,\"icon\":\"cloudy\",\"temperature\":3.88},\"5\":{\"cloudCover\":0.98,\"time\":1639800000,\"icon\":\"cloudy\",\"temperature\":3.91},\"6\":{\"cloudCover\":0.98,\"time\":1639803600,\"icon\":\"cloudy\",\"temperature\":3.93},\"7\":{\"cloudCover\":0.98,\"time\":1639807200,\"icon\":\"cloudy\",\"temperature\":3.89},\"8\":{\"cloudCover\":1,\"time\":1639810800,\"icon\":\"cloudy\",\"temperature\":3.98},\"9\":{\"cloudCover\":1,\"time\":1639814400,\"icon\":\"cloudy\",\"temperature\":4.07},\"10\":{\"cloudCover\":1,\"time\":1639818000,\"icon\":\"cloudy\",\"temperature\":3.71},\"11\":{\"cloudCover\":0.99,\"time\":1639821600,\"icon\":\"cloudy\",\"temperature\":3.48},\"12\":{\"cloudCover\":1,\"time\":1639825200,\"icon\":\"cloudy\",\"temperature\":3.82},\"13\":{\"cloudCover\":0.97,\"time\":1639828800,\"icon\":\"cloudy\",\"temperature\":4.18},\"14\":{\"cloudCover\":0.97,\"time\":1639832400,\"icon\":\"cloudy\",\"temperature\":4.43},\"15\":{\"cloudCover\":0.99,\"time\":1639836000,\"icon\":\"cloudy\",\"temperature\":4.7},\"16\":{\"cloudCover\":1,\"time\":1639839600,\"icon\":\"cloudy\",\"temperature\":5.08},\"17\":{\"cloudCover\":1,\"time\":1639843200,\"icon\":\"cloudy\",\"temperature\":5.5},\"18\":{\"cloudCover\":1,\"time\":1639846800,\"icon\":\"cloudy\",\"temperature\":5.93},\"19\":{\"cloudCover\":0.97,\"time\":1639850400,\"icon\":\"cloudy\",\"temperature\":6.38},\"20\":{\"cloudCover\":0.9,\"time\":1639854000,\"icon\":\"cloudy\",\"temperature\":6.66},\"21\":{\"cloudCover\":0.93,\"time\":1639857600,\"icon\":\"cloudy\",\"temperature\":7.31},\"22\":{\"cloudCover\":0.91,\"time\":1639861200,\"icon\":\"cloudy\",\"temperature\":7.49},\"23\":{\"cloudCover\":0.88,\"time\":1639864800,\"icon\":\"cloudy\",\"temperature\":7.54}},\"1\":{\"0\":{\"cloudCover\":0.88,\"time\":1639868400,\"icon\":\"cloudy\",\"temperature\":7.51},\"1\":{\"cloudCover\":0.89,\"time\":1639872000,\"icon\":\"cloudy\",\"temperature\":7.43},\"2\":{\"cloudCover\":0.92,\"time\":1639875600,\"icon\":\"cloudy\",\"temperature\":7.05},\"3\":{\"cloudCover\":0.92,\"time\":1639879200,\"icon\":\"cloudy\",\"temperature\":6.66},\"4\":{\"cloudCover\":0.91,\"time\":1639882800,\"icon\":\"cloudy\",\"temperature\":6.2},\"5\":{\"cloudCover\":0.91,\"time\":1639886400,\"icon\":\"cloudy\",\"temperature\":5.79},\"6\":{\"cloudCover\":0.91,\"time\":1639890000,\"icon\":\"cloudy\",\"temperature\":5.21},\"7\":{\"cloudCover\":0.93,\"time\":1639893600,\"icon\":\"cloudy\",\"temperature\":4.99},\"8\":{\"cloudCover\":0.98,\"time\":1639897200,\"icon\":\"cloudy\",\"temperature\":4.69},\"9\":{\"cloudCover\":0.97,\"time\":1639900800,\"icon\":\"cloudy\",\"temperature\":4.43},\"10\":{\"cloudCover\":0.95,\"time\":1639904400,\"icon\":\"cloudy\",\"temperature\":4.35},\"11\":{\"cloudCover\":0.94,\"time\":1639908000,\"icon\":\"cloudy\",\"temperature\":4.52},\"12\":{\"cloudCover\":0.92,\"time\":1639911600,\"icon\":\"cloudy\",\"temperature\":5.18},\"13\":{\"cloudCover\":0.91,\"time\":1639915200,\"icon\":\"cloudy\",\"temperature\":5.76},\"14\":{\"cloudCover\":0.94,\"time\":1639918800,\"icon\":\"cloudy\",\"temperature\":6.2},\"15\":{\"cloudCover\":0.97,\"time\":1639922400,\"icon\":\"cloudy\",\"temperature\":6.19},\"16\":{\"cloudCover\":1,\"time\":1639926000,\"icon\":\"cloudy\",\"temperature\":6.02},\"17\":{\"cloudCover\":1,\"time\":1639929600,\"icon\":\"rain\",\"temperature\":5.74},\"18\":{\"cloudCover\":0.99,\"time\":1639933200,\"icon\":\"rain\",\"temperature\":5.83},\"19\":{\"cloudCover\":0.98,\"time\":1639936800,\"icon\":\"rain\",\"temperature\":5.97},\"20\":{\"cloudCover\":0.94,\"time\":1639940400,\"icon\":\"cloudy\",\"temperature\":6.23},\"21\":{\"cloudCover\":0.91,\"time\":1639944000,\"icon\":\"cloudy\",\"temperature\":6.26},\"22\":{\"cloudCover\":0.85,\"time\":1639947600,\"icon\":\"partly-cloudy-night\",\"temperature\":6.1},\"23\":{\"cloudCover\":0.85,\"time\":1639951200,\"icon\":\"partly-cloudy-night\",\"temperature\":5.93}},\"2\":{\"0\":{\"cloudCover\":0.84,\"time\":1639954800,\"icon\":\"partly-cloudy-night\",\"temperature\":5.44},\"1\":{\"cloudCover\":0.74,\"time\":1639958400,\"icon\":\"partly-cloudy-night\",\"temperature\":4.54},\"2\":{\"cloudCover\":0.59,\"time\":1639962000,\"icon\":\"partly-cloudy-night\",\"temperature\":3.55},\"3\":{\"cloudCover\":0.53,\"time\":1639965600,\"icon\":\"partly-cloudy-night\",\"temperature\":2.74},\"4\":{\"cloudCover\":0.42,\"time\":1639969200,\"icon\":\"partly-cloudy-night\",\"temperature\":1.78},\"5\":{\"cloudCover\":0.36,\"time\":1639972800,\"icon\":\"partly-cloudy-night\",\"temperature\":0.86},\"6\":{\"cloudCover\":0.41,\"time\":1639976400,\"icon\":\"partly-cloudy-night\",\"temperature\":0.06},\"7\":{\"cloudCover\":0.49,\"time\":1639980000,\"icon\":\"partly-cloudy-night\",\"temperature\":-0.58},\"8\":{\"cloudCover\":0.46,\"time\":1639983600,\"icon\":\"partly-cloudy-night\",\"temperature\":-0.96},\"9\":{\"cloudCover\":0.6,\"time\":1639987200,\"icon\":\"partly-cloudy-day\",\"temperature\":-1.14},\"10\":{\"cloudCover\":0.63,\"time\":1639990800,\"icon\":\"partly-cloudy-day\",\"temperature\":-0.86},\"11\":{\"cloudCover\":0.68,\"time\":1639994400,\"icon\":\"partly-cloudy-day\",\"temperature\":-0.52},\"12\":{\"cloudCover\":0.72,\"time\":1639998000,\"icon\":\"partly-cloudy-day\",\"temperature\":0.3},\"13\":{\"cloudCover\":0.81,\"time\":1640001600,\"icon\":\"partly-cloudy-day\",\"temperature\":0.89},\"14\":{\"cloudCover\":0.98,\"time\":1640005200,\"icon\":\"cloudy\",\"temperature\":1.33},\"15\":{\"cloudCover\":0.98,\"time\":1640008800,\"icon\":\"cloudy\",\"temperature\":1.36},\"16\":{\"cloudCover\":0.93,\"time\":1640012400,\"icon\":\"cloudy\",\"temperature\":1.13},\"17\":{\"cloudCover\":0.96,\"time\":1640016000,\"icon\":\"cloudy\",\"temperature\":0.94},\"18\":{\"cloudCover\":0.94,\"time\":1640019600,\"icon\":\"cloudy\",\"temperature\":1.05},\"19\":{\"cloudCover\":0.87,\"time\":1640023200,\"icon\":\"partly-cloudy-night\",\"temperature\":1.05},\"20\":{\"cloudCover\":0.92,\"time\":1640026800,\"icon\":\"cloudy\",\"temperature\":1.28},\"21\":{\"cloudCover\":0.9,\"time\":1640030400,\"icon\":\"cloudy\",\"temperature\":1.5},\"22\":{\"cloudCover\":0.86,\"time\":1640034000,\"icon\":\"partly-cloudy-night\",\"temperature\":1.6},\"23\":{\"cloudCover\":0.85,\"time\":1640037600,\"icon\":\"partly-cloudy-night\",\"temperature\":1.6}},\"3\":{\"0\":{\"cloudCover\":0.89,\"time\":1640041200,\"icon\":\"cloudy\",\"temperature\":1.47},\"1\":{\"cloudCover\":0.93,\"time\":1640044800,\"icon\":\"cloudy\",\"temperature\":1.36},\"2\":{\"cloudCover\":0.95,\"time\":1640048400,\"icon\":\"fog\",\"temperature\":1.24},\"3\":{\"cloudCover\":0.97,\"time\":1640052000,\"icon\":\"fog\",\"temperature\":0.98},\"4\":{\"cloudCover\":0.97,\"time\":1640055600,\"icon\":\"cloudy\",\"temperature\":0.63},\"5\":{\"cloudCover\":0.98,\"time\":1640059200,\"icon\":\"cloudy\",\"temperature\":0.25},\"6\":{\"cloudCover\":0.96,\"time\":1640062800,\"icon\":\"cloudy\",\"temperature\":-0.13},\"7\":{\"cloudCover\":0.97,\"time\":1640066400,\"icon\":\"cloudy\",\"temperature\":-0.54},\"8\":{\"cloudCover\":0.9,\"time\":1640070000,\"icon\":\"cloudy\",\"temperature\":-1.3},\"9\":{\"cloudCover\":0.83,\"time\":1640073600,\"icon\":\"partly-cloudy-day\",\"temperature\":-1.42},\"10\":{\"cloudCover\":0.79,\"time\":1640077200,\"icon\":\"partly-cloudy-day\",\"temperature\":-1.24},\"11\":{\"cloudCover\":0.79,\"time\":1640080800,\"icon\":\"partly-cloudy-day\",\"temperature\":-1.11},\"12\":{\"cloudCover\":0.82,\"time\":1640084400,\"icon\":\"partly-cloudy-day\",\"temperature\":-0.88},\"13\":{\"cloudCover\":0.96,\"time\":1640088000,\"icon\":\"cloudy\",\"temperature\":-1.24},\"14\":{\"cloudCover\":0.91,\"time\":1640091600,\"icon\":\"cloudy\",\"temperature\":-1.38},\"15\":{\"cloudCover\":0.85,\"time\":1640095200,\"icon\":\"partly-cloudy-day\",\"temperature\":-1.66},\"16\":{\"cloudCover\":0.8,\"time\":1640098800,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.93},\"17\":{\"cloudCover\":0.74,\"time\":1640102400,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.94},\"18\":{\"cloudCover\":0.71,\"time\":1640106000,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.73},\"19\":{\"cloudCover\":0.77,\"time\":1640109600,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.64},\"20\":{\"cloudCover\":0.75,\"time\":1640113200,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.47},\"21\":{\"cloudCover\":0.7,\"time\":1640116800,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.49},\"22\":{\"cloudCover\":0.73,\"time\":1640120400,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.49},\"23\":{\"cloudCover\":0.73,\"time\":1640124000,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.63}},\"4\":{\"0\":{\"cloudCover\":0.75,\"time\":1640127600,\"icon\":\"partly-cloudy-night\",\"temperature\":-1.81},\"1\":{\"cloudCover\":0.84,\"time\":1640131200,\"icon\":\"partly-cloudy-night\",\"temperature\":-2.08},\"2\":{\"cloudCover\":0.29,\"time\":1640134800,\"icon\":\"clear-night\",\"temperature\":-2.3},\"3\":{\"cloudCover\":0.36,\"time\":1640138400,\"icon\":\"partly-cloudy-night\",\"temperature\":-2.5},\"4\":{\"cloudCover\":0.45,\"time\":1640142000,\"icon\":\"partly-cloudy-night\",\"temperature\":-2.77},\"5\":{\"cloudCover\":0.39,\"time\":1640145600,\"icon\":\"partly-cloudy-night\",\"temperature\":-3.29},\"6\":{\"cloudCover\":0.34,\"time\":1640149200,\"icon\":\"partly-cloudy-night\",\"temperature\":-3.74},\"7\":{\"cloudCover\":0.43,\"time\":1640152800,\"icon\":\"partly-cloudy-night\",\"temperature\":-3.93},\"8\":{\"cloudCover\":0.32,\"time\":1640156400,\"icon\":\"partly-cloudy-night\",\"temperature\":-3.98},\"9\":{\"cloudCover\":0.36,\"time\":1640160000,\"icon\":\"partly-cloudy-day\",\"temperature\":-3.35},\"10\":{\"cloudCover\":0.34,\"time\":1640163600,\"icon\":\"partly-cloudy-day\",\"temperature\":-2.46},\"11\":{\"cloudCover\":0.32,\"time\":1640167200,\"icon\":\"partly-cloudy-day\",\"temperature\":-1.14},\"12\":{\"cloudCover\":0.35,\"time\":1640170800,\"icon\":\"partly-cloudy-day\",\"temperature\":0},\"13\":{\"cloudCover\":0.41,\"time\":1640174400,\"icon\":\"partly-cloudy-day\",\"temperature\":0.42},\"14\":{\"cloudCover\":0.83,\"time\":1640178000,\"icon\":\"partly-cloudy-day\",\"temperature\":0.11},\"15\":{\"cloudCover\":0.89,\"time\":1640181600,\"icon\":\"cloudy\",\"temperature\":-0.77},\"16\":{\"cloudCover\":0.94,\"time\":1640185200,\"icon\":\"cloudy\",\"temperature\":-1.94},\"17\":{\"cloudCover\":0.94,\"time\":1640188800,\"icon\":\"cloudy\",\"temperature\":-2.42},\"18\":{\"cloudCover\":0.95,\"time\":1640192400,\"icon\":\"cloudy\",\"temperature\":-2.65},\"19\":{\"cloudCover\":0.96,\"time\":1640196000,\"icon\":\"cloudy\",\"temperature\":-5.76},\"20\":{\"cloudCover\":0.97,\"time\":1640199600,\"icon\":\"cloudy\",\"temperature\":-4.57},\"21\":{\"cloudCover\":0.99,\"time\":1640203200,\"icon\":\"cloudy\",\"temperature\":-4.02},\"22\":{\"cloudCover\":1,\"time\":1640206800,\"icon\":\"cloudy\",\"temperature\":-5.27},\"23\":{\"cloudCover\":1,\"time\":1640210400,\"icon\":\"cloudy\",\"temperature\":-3.55}},\"5\":{\"0\":{\"cloudCover\":1,\"time\":1640214000,\"icon\":\"cloudy\",\"temperature\":-5.23},\"1\":{\"cloudCover\":1,\"time\":1640217600,\"icon\":\"cloudy\",\"temperature\":-5.48},\"2\":{\"cloudCover\":1,\"time\":1640221200,\"icon\":\"cloudy\",\"temperature\":-5.85},\"3\":{\"cloudCover\":1,\"time\":1640224800,\"icon\":\"cloudy\",\"temperature\":-6.35},\"4\":{\"cloudCover\":1,\"time\":1640228400,\"icon\":\"cloudy\",\"temperature\":-6.86},\"5\":{\"cloudCover\":1,\"time\":1640232000,\"icon\":\"cloudy\",\"temperature\":-7.39},\"6\":{\"cloudCover\":1,\"time\":1640235600,\"icon\":\"cloudy\",\"temperature\":-7.74},\"7\":{\"cloudCover\":1,\"time\":1640239200,\"icon\":\"cloudy\",\"temperature\":-7.68},\"8\":{\"cloudCover\":1,\"time\":1640242800,\"icon\":\"cloudy\",\"temperature\":-7.03},\"9\":{\"cloudCover\":1,\"time\":1640246400,\"icon\":\"cloudy\",\"temperature\":-6.1},\"10\":{\"cloudCover\":1,\"time\":1640250000,\"icon\":\"cloudy\",\"temperature\":-4.89},\"11\":{\"cloudCover\":1,\"time\":1640253600,\"icon\":\"cloudy\",\"temperature\":-3.44},\"12\":{\"cloudCover\":1,\"time\":1640257200,\"icon\":\"cloudy\",\"temperature\":-1.46},\"13\":{\"cloudCover\":1,\"time\":1640260800,\"icon\":\"cloudy\",\"temperature\":-0.01},\"14\":{\"cloudCover\":1,\"time\":1640264400,\"icon\":\"cloudy\",\"temperature\":0.55},\"15\":{\"cloudCover\":1,\"time\":1640268000,\"icon\":\"cloudy\",\"temperature\":0.33},\"16\":{\"cloudCover\":1,\"time\":1640271600,\"icon\":\"cloudy\",\"temperature\":-0.05},\"17\":{\"cloudCover\":1,\"time\":1640275200,\"icon\":\"cloudy\",\"temperature\":-0.41},\"18\":{\"cloudCover\":1,\"time\":1640278800,\"icon\":\"cloudy\",\"temperature\":-0.5},\"19\":{\"cloudCover\":1,\"time\":1640282400,\"icon\":\"cloudy\",\"temperature\":-0.33},\"20\":{\"cloudCover\":0.96,\"time\":1640286000,\"icon\":\"cloudy\",\"temperature\":0.38},\"21\":{\"cloudCover\":0.91,\"time\":1640289600,\"icon\":\"cloudy\",\"temperature\":1.38},\"22\":{\"cloudCover\":0.87,\"time\":1640293200,\"icon\":\"partly-cloudy-night\",\"temperature\":2.21},\"23\":{\"cloudCover\":0.85,\"time\":1640296800,\"icon\":\"partly-cloudy-night\",\"temperature\":3.06}},\"6\":{\"0\":{\"cloudCover\":0.86,\"time\":1640300400,\"icon\":\"partly-cloudy-night\",\"temperature\":3.72},\"1\":{\"cloudCover\":0.88,\"time\":1640304000,\"icon\":\"cloudy\",\"temperature\":4.25},\"2\":{\"cloudCover\":0.92,\"time\":1640307600,\"icon\":\"cloudy\",\"temperature\":4.4},\"3\":{\"cloudCover\":0.97,\"time\":1640311200,\"icon\":\"cloudy\",\"temperature\":4.3},\"4\":{\"cloudCover\":1,\"time\":1640314800,\"icon\":\"cloudy\",\"temperature\":4.1},\"5\":{\"cloudCover\":0.99,\"time\":1640318400,\"icon\":\"cloudy\",\"temperature\":3.78},\"6\":{\"cloudCover\":0.97,\"time\":1640322000,\"icon\":\"cloudy\",\"temperature\":3.36},\"7\":{\"cloudCover\":0.95,\"time\":1640325600,\"icon\":\"cloudy\",\"temperature\":3.08},\"8\":{\"cloudCover\":0.94,\"time\":1640329200,\"icon\":\"cloudy\",\"temperature\":3.11},\"9\":{\"cloudCover\":0.94,\"time\":1640332800,\"icon\":\"cloudy\",\"temperature\":3.28},\"10\":{\"cloudCover\":0.94,\"time\":1640336400,\"icon\":\"cloudy\",\"temperature\":3.52},\"11\":{\"cloudCover\":0.95,\"time\":1640340000,\"icon\":\"cloudy\",\"temperature\":3.64},\"12\":{\"cloudCover\":0.96,\"time\":1640343600,\"icon\":\"cloudy\",\"temperature\":4.14},\"13\":{\"cloudCover\":0.97,\"time\":1640347200,\"icon\":\"cloudy\",\"temperature\":4.63},\"14\":{\"cloudCover\":0.98,\"time\":1640350800,\"icon\":\"cloudy\",\"temperature\":5.05},\"15\":{\"cloudCover\":0.99,\"time\":1640354400,\"icon\":\"rain\",\"temperature\":5.15},\"16\":{\"cloudCover\":1,\"time\":1640358000,\"icon\":\"rain\",\"temperature\":5.1},\"17\":{\"cloudCover\":1,\"time\":1640361600,\"icon\":\"rain\",\"temperature\":4.86},\"18\":{\"cloudCover\":1,\"time\":1640365200,\"icon\":\"rain\",\"temperature\":4.87},\"19\":{\"cloudCover\":1,\"time\":1640368800,\"icon\":\"rain\",\"temperature\":4.59},\"20\":{\"cloudCover\":1,\"time\":1640372400,\"icon\":\"rain\",\"temperature\":3.58},\"21\":{\"cloudCover\":1,\"time\":1640376000,\"icon\":\"rain\",\"temperature\":2.83},\"22\":{\"cloudCover\":1,\"time\":1640379600,\"icon\":\"cloudy\",\"temperature\":1.91},\"23\":{\"cloudCover\":1,\"time\":1640383200,\"icon\":\"cloudy\",\"temperature\":1.61}},\"7\":{\"0\":{\"cloudCover\":1,\"time\":1640386800,\"icon\":\"cloudy\",\"temperature\":1.59},\"1\":{\"cloudCover\":1,\"time\":1640390400,\"icon\":\"cloudy\",\"temperature\":1.5},\"2\":{\"cloudCover\":1,\"time\":1640394000,\"icon\":\"cloudy\",\"temperature\":1.32},\"3\":{\"cloudCover\":1,\"time\":1640397600,\"icon\":\"cloudy\",\"temperature\":1.09},\"4\":{\"cloudCover\":1,\"time\":1640401200,\"icon\":\"cloudy\",\"temperature\":0.78},\"5\":{\"cloudCover\":1,\"time\":1640404800,\"icon\":\"cloudy\",\"temperature\":0.48},\"6\":{\"cloudCover\":1,\"time\":1640408400,\"icon\":\"cloudy\",\"temperature\":0.14},\"7\":{\"cloudCover\":0.98,\"time\":1640412000,\"icon\":\"cloudy\",\"temperature\":0.11},\"8\":{\"cloudCover\":0.89,\"time\":1640415600,\"icon\":\"cloudy\",\"temperature\":0.4}}},\"daily\":{\"0\":{\"cloudCover\":0.97,\"time\":1639782000,\"icon\":\"cloudy\",\"sunsetTime\":1639839600,\"sunriseTime\":1639811160,\"temperatureMin\":3.21,\"temperatureMax\":7.82,\"precipIntensity\":0.0152},\"1\":{\"cloudCover\":0.93,\"time\":1639868400,\"icon\":\"rain\",\"sunsetTime\":1639926000,\"sunriseTime\":1639897620,\"temperatureMin\":4.08,\"temperatureMax\":7.79,\"precipIntensity\":0.0928},\"2\":{\"cloudCover\":0.73,\"time\":1639954800,\"icon\":\"partly-cloudy-day\",\"sunsetTime\":1640012460,\"sunriseTime\":1639984020,\"temperatureMin\":-1.41,\"temperatureMax\":5.72,\"precipIntensity\":0.0289},\"3\":{\"cloudCover\":0.85,\"time\":1640041200,\"icon\":\"fog\",\"sunsetTime\":1640098860,\"sunriseTime\":1640070480,\"temperatureMin\":-2.23,\"temperatureMax\":1.75,\"precipIntensity\":0.042},\"4\":{\"cloudCover\":0.65,\"time\":1640127600,\"icon\":\"partly-cloudy-day\",\"sunsetTime\":1640185320,\"sunriseTime\":1640156880,\"temperatureMin\":-6.08,\"temperatureMax\":0.7,\"precipIntensity\":0},\"5\":{\"cloudCover\":0.98,\"time\":1640214000,\"icon\":\"cloudy\",\"sunsetTime\":1640271720,\"sunriseTime\":1640243340,\"temperatureMin\":-8.04,\"temperatureMax\":4,\"precipIntensity\":0.1195},\"6\":{\"cloudCover\":0.97,\"time\":1640300400,\"icon\":\"rain\",\"sunsetTime\":1640358180,\"sunriseTime\":1640329740,\"temperatureMin\":1.32,\"temperatureMax\":5.43,\"precipIntensity\":0.1072},\"7\":{\"cloudCover\":0.94,\"time\":1640386800,\"icon\":\"partly-cloudy-day\",\"sunsetTime\":1640444640,\"sunriseTime\":1640416140,\"temperatureMin\":-0.79,\"temperatureMax\":2.43,\"precipIntensity\":0.013}}}"
+                        }
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": []
+                    },
+                    "ForecastProperties": {
+                        "tagName": "ForecastProperties",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": {
+                            "correctionFactorUpdated": "1639782300049",
+                            "FactorForecast": "1.9",
+                            "diffuseCorrectionFactorUpdated": "1639782300049",
+                            "weatherUpdated": "1639810923167",
+                            "historyUpdated": "1639782306563"
+                        }
+                    },
+                    "ModePreventPVForecast": {
+                        "tagName": "ModePreventPVForecast",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": false
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": false
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": null
+                    },
+                    "WeatherAPIKey": {
+                        "tagName": "WeatherAPIKey",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": "Forecast"
+                    },
+                    "CorrectionFactors": {
+                        "tagName": "CorrectionFactors",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": {
+                            "aaaaaaaa-bbbb-cccc-dddd-000000000002": {
+                                "1": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "10": {
+                                    "100": 1.441118484274999,
+                                    "40": 1.2415132249676724,
+                                    "10": 1.5833970282692997,
+                                    "80": 0.7498608937311456,
+                                    "70": 1.8324452731000531,
+                                    "0": 1.1169754818648796,
+                                    "90": 1.8320935321129554,
+                                    "50": 1.2102264872926987,
+                                    "30": 2.4060039200795127,
+                                    "20": 1.855421520216089,
+                                    "60": 1.904941310531128
+                                },
+                                "5": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "0": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "21": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "14": {
+                                    "100": 0.4397311571018234,
+                                    "40": 1.0011418780649894,
+                                    "10": 1.3124291672622097,
+                                    "80": 0.7649314499291733,
+                                    "70": 0.9236307587016787,
+                                    "0": 1.4431531050845554,
+                                    "90": 1.319267587331946,
+                                    "50": 1.0721685407082915,
+                                    "30": 1.3306329872687708,
+                                    "20": 1.484847408519633,
+                                    "60": 1.227347757825324
+                                },
+                                "11": {
+                                    "100": 1.4593156999138128,
+                                    "40": 1.7494134477217849,
+                                    "10": 1.4685796316896218,
+                                    "80": 0.9375108710013549,
+                                    "70": 1.8151182865522342,
+                                    "0": 1.4493896219319458,
+                                    "90": 1.9235463952452394,
+                                    "50": 1.812433531960584,
+                                    "30": 2.0102585494487877,
+                                    "20": 1.4229334166231875,
+                                    "60": 0.8425106368466205
+                                },
+                                "9": {
+                                    "100": 0.9802516519773297,
+                                    "40": 1.463725336753838,
+                                    "10": 1.4165272441302885,
+                                    "80": 0.4441131488371016,
+                                    "70": 1.8333241433376968,
+                                    "0": 1.0719176578656426,
+                                    "90": 0.7474811871082202,
+                                    "50": 1.0949553726811452,
+                                    "30": 1.3257591760775185,
+                                    "20": 1.5536436295282616,
+                                    "60": 1.240472141623007
+                                },
+                                "2": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "19": {
+                                    "100": 0.883539355227035,
+                                    "40": 0.44582214985595464,
+                                    "10": 1.0328189686418523,
+                                    "80": 0.66737475082109,
+                                    "70": 1.1115657228742541,
+                                    "0": 1.5030243558888063,
+                                    "90": 2.4152266517930867,
+                                    "50": 0.6686239548642227,
+                                    "30": 0.9076844417436338,
+                                    "20": 0.9140594661276803,
+                                    "60": 0.563220917684937
+                                },
+                                "23": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "13": {
+                                    "100": 1.2947251159532314,
+                                    "40": 1.3898861185576281,
+                                    "10": 1.7102919640558398,
+                                    "80": 0.5479072332201802,
+                                    "70": 1.2273292803029257,
+                                    "0": 1.5383352589888073,
+                                    "90": 1.3739821019745018,
+                                    "50": 1.4346784621410718,
+                                    "30": 2.0714548264321513,
+                                    "20": 1.2364896741219444,
+                                    "60": 1.3506497882867186
+                                },
+                                "8": {
+                                    "100": 0.18615654965385894,
+                                    "40": 0.6261596136290856,
+                                    "10": 1.5142062546372514,
+                                    "80": 0.14214892190534176,
+                                    "70": 1.010030780856046,
+                                    "0": 1.3156564438047849,
+                                    "90": 1.481693699130815,
+                                    "50": 0.7731020070183792,
+                                    "30": 0.3877484650310489,
+                                    "20": 1.1897563458273677,
+                                    "60": 0.4911096112949464
+                                },
+                                "6": {
+                                    "100": 8.057329629914621,
+                                    "40": 1,
+                                    "10": 6.4224071889119605,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 7.270233560388028
+                                },
+                                "16": {
+                                    "100": 0.5435991962070014,
+                                    "40": 0.6206468292995025,
+                                    "10": 1.0505790989036774,
+                                    "80": 0.17254737256917974,
+                                    "70": 0.8675913702757988,
+                                    "0": 1.0972893760965128,
+                                    "90": 0.704106976487239,
+                                    "50": 0.5797687272398921,
+                                    "30": 1.1912742235950455,
+                                    "20": 0.523776230242354,
+                                    "60": 0.7166188859699836
+                                },
+                                "15": {
+                                    "100": 0.20125288549850634,
+                                    "40": 0.6502133742713833,
+                                    "10": 1.2815009009700358,
+                                    "80": 0.18160292438491238,
+                                    "70": 0.4499817368219858,
+                                    "0": 1.166544571636606,
+                                    "90": 1.8161132763763546,
+                                    "50": 1.1015650949358782,
+                                    "30": 1.2855456958527463,
+                                    "20": 0.9447512385140207,
+                                    "60": 0.9016523453543991
+                                },
+                                "12": {
+                                    "100": 1.5567816023653354,
+                                    "40": 1.4801666195220249,
+                                    "10": 1.7671841417468745,
+                                    "80": 0.8513702182418955,
+                                    "70": 1.0102332743265157,
+                                    "0": 1.6393647860050649,
+                                    "90": 1.1229848403315932,
+                                    "50": 1.8298295646155107,
+                                    "30": 1.8634396305987186,
+                                    "20": 1.5913957039278737,
+                                    "60": 1.6543583388386107
+                                },
+                                "7": {
+                                    "100": 0.6791084264861685,
+                                    "40": 3.3459551607938574,
+                                    "10": 1.7717756910194193,
+                                    "80": 0.17429043563369565,
+                                    "70": 0.6881842652811996,
+                                    "0": 2.0615094440424273,
+                                    "90": 1.1257117848201794,
+                                    "50": 1.2148038474003398,
+                                    "30": 3.0703781874395992,
+                                    "20": 1.0843110994589924,
+                                    "60": 0.5129208304567354
+                                },
+                                "4": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "20": {
+                                    "100": 1,
+                                    "40": 7.228442634646076,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 0.03189799145299145,
+                                    "0": 8.374758097937391,
+                                    "90": 1,
+                                    "50": 5.6725219630601815,
+                                    "30": 1,
+                                    "20": 5.736324632991018,
+                                    "60": 1
+                                },
+                                "18": {
+                                    "100": 0.46288832116356515,
+                                    "40": 0.23146454580029266,
+                                    "10": 0.7542993402371128,
+                                    "80": 0.3030441096628674,
+                                    "70": 1.2432243287540112,
+                                    "0": 0.556010427794779,
+                                    "90": 0.8162900731638896,
+                                    "50": 0.6456327171499759,
+                                    "30": 0.6564861663091426,
+                                    "20": 0.8502286718497098,
+                                    "60": 0.5412007707905799
+                                },
+                                "17": {
+                                    "100": 0.7906017306165393,
+                                    "40": 0.4610512803827329,
+                                    "10": 0.6329111411228484,
+                                    "80": 0.20161596358370104,
+                                    "70": 1.1158291968841658,
+                                    "0": 0.6706351190663016,
+                                    "90": 1.4585639645942514,
+                                    "50": 0.8513720859143084,
+                                    "30": 0.5112615485823753,
+                                    "20": 1.1164153307029747,
+                                    "60": 0.14748345229167364
+                                },
+                                "3": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                },
+                                "22": {
+                                    "100": 1,
+                                    "40": 1,
+                                    "10": 1,
+                                    "80": 1,
+                                    "70": 1,
+                                    "0": 1,
+                                    "90": 1,
+                                    "50": 1,
+                                    "30": 1,
+                                    "20": 1,
+                                    "60": 1
+                                }
+                            }
+                        }
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": false
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:forecast:ERC05-000099999",
+                        "value": "urn:forecast:ERC05-000099999"
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.solarwatt.devices.forecast.Forecast"
+                    }
+                ],
+                "guid": "urn:forecast:ERC05-000099999"
+            }, {
+                "tagValues": {
+                    "ConsumptionEnergyL1": {
+                        "tagName": "ConsumptionEnergyL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ConsumptionPowerL3": {
+                        "tagName": "ConsumptionPowerL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PowerFactorL3": {
+                        "tagName": "PowerFactorL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": "OK"
+                    },
+                    "ActivePowerL2": {
+                        "tagName": "ActivePowerL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ConsumptionEnergyL3": {
+                        "tagName": "ConsumptionEnergyL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ImbalanceL3": {
+                        "tagName": "ImbalanceL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentL1": {
+                        "tagName": "ACCurrentL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionPowerL3": {
+                        "tagName": "InjectionPowerL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACVoltageL1": {
+                        "tagName": "ACVoltageL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ConsumptionEnergyNet": {
+                        "tagName": "ConsumptionEnergyNet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": true
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionPowerL1": {
+                        "tagName": "InjectionPowerL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PowerFactorL2": {
+                        "tagName": "PowerFactorL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 0
+                    },
+                    "CosinusPhiL3": {
+                        "tagName": "CosinusPhiL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentInjectionL2": {
+                        "tagName": "ACCurrentInjectionL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentConsumptionL1": {
+                        "tagName": "ACCurrentConsumptionL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentInjectionL1": {
+                        "tagName": "ACCurrentInjectionL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionEnergyNet": {
+                        "tagName": "InjectionEnergyNet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": []
+                    },
+                    "InductiveEnergyL1": {
+                        "tagName": "InductiveEnergyL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionEnergySum": {
+                        "tagName": "InjectionEnergySum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ConsumptionPowerNet": {
+                        "tagName": "ConsumptionPowerNet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ActivePowerL3": {
+                        "tagName": "ActivePowerL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ConsumptionPowerL1": {
+                        "tagName": "ConsumptionPowerL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ImbalanceL1": {
+                        "tagName": "ImbalanceL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "CosinusPhiL2": {
+                        "tagName": "CosinusPhiL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InductiveEnergyL2": {
+                        "tagName": "InductiveEnergyL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ApparentPowerL3": {
+                        "tagName": "ApparentPowerL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ReactivePowerSum": {
+                        "tagName": "ReactivePowerSum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentInjectionL3": {
+                        "tagName": "ACCurrentInjectionL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ApparentPowerL1": {
+                        "tagName": "ApparentPowerL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "MaximumImbalance": {
+                        "tagName": "MaximumImbalance",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ReactivePowerL2": {
+                        "tagName": "ReactivePowerL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "CapacitiveEnergyL1": {
+                        "tagName": "CapacitiveEnergyL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": "urn:acsensor"
+                    },
+                    "PowerFactorL1": {
+                        "tagName": "PowerFactorL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionEnergyL1": {
+                        "tagName": "InjectionEnergyL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ReactivePowerL3": {
+                        "tagName": "ReactivePowerL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "WorkIn": {
+                        "tagName": "WorkIn",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 999669.6068055353
+                    },
+                    "ConsumptionPowerSum": {
+                        "tagName": "ConsumptionPowerSum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentL2": {
+                        "tagName": "ACCurrentL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionPowerSum": {
+                        "tagName": "InjectionPowerSum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "CapacitiveEnergyL2": {
+                        "tagName": "CapacitiveEnergyL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "FrequencyL2": {
+                        "tagName": "FrequencyL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": "com.kiwigrid.devices.solarwatt\/.driver.MyReserveDriverService"
+                    },
+                    "InductiveEnergySum": {
+                        "tagName": "InductiveEnergySum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": false
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": ["emi:\/\/energymanager-rail\/can\/0"]
+                    },
+                    "ACCurrentConsumptionL2": {
+                        "tagName": "ACCurrentConsumptionL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionPowerNet": {
+                        "tagName": "InjectionPowerNet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdAcsVersionNumber": {
+                        "tagName": "IdAcsVersionNumber",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 810
+                    },
+                    "ConsumptionEnergyL2": {
+                        "tagName": "ConsumptionEnergyL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ImbalanceL2": {
+                        "tagName": "ImbalanceL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "FrequencyL1": {
+                        "tagName": "FrequencyL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ActivePowerSum": {
+                        "tagName": "ActivePowerSum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PpmScaleFactor": {
+                        "tagName": "PpmScaleFactor",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 1
+                    },
+                    "InjectionEnergyL2": {
+                        "tagName": "InjectionEnergyL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": "MyReserve ACS"
+                    },
+                    "WorkOut": {
+                        "tagName": "WorkOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 2693073.0098611885
+                    },
+                    "InjectionEnergyL3": {
+                        "tagName": "InjectionEnergyL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PowerIn": {
+                        "tagName": "PowerIn",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 85
+                    },
+                    "ACVoltageL3": {
+                        "tagName": "ACVoltageL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ReactivePowerL1": {
+                        "tagName": "ReactivePowerL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PowerOut": {
+                        "tagName": "PowerOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": 0
+                    },
+                    "DirectionMetering": {
+                        "tagName": "DirectionMetering",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": "BIDIRECTIONAL"
+                    },
+                    "ConsumptionEnergySum": {
+                        "tagName": "ConsumptionEnergySum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentConsumptionL3": {
+                        "tagName": "ACCurrentConsumptionL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "CosinusPhiL1": {
+                        "tagName": "CosinusPhiL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ActivePowerL1": {
+                        "tagName": "ActivePowerL1",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ConsumptionPowerL2": {
+                        "tagName": "ConsumptionPowerL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ApparentPowerSum": {
+                        "tagName": "ApparentPowerSum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "FrequencyL3": {
+                        "tagName": "FrequencyL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentN": {
+                        "tagName": "ACCurrentN",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACVoltageL2": {
+                        "tagName": "ACVoltageL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "FrequencyGrid": {
+                        "tagName": "FrequencyGrid",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": "SOLARWATT"
+                    },
+                    "CapacitiveEnergyL3": {
+                        "tagName": "CapacitiveEnergyL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InductiveEnergyL3": {
+                        "tagName": "InductiveEnergyL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "PhaseOfMaximumImbalance": {
+                        "tagName": "PhaseOfMaximumImbalance",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ACCurrentL3": {
+                        "tagName": "ACCurrentL3",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "CapacitiveEnergySum": {
+                        "tagName": "CapacitiveEnergySum",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "InjectionPowerL2": {
+                        "tagName": "InjectionPowerL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    },
+                    "ApparentPowerL2": {
+                        "tagName": "ApparentPowerL2",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001",
+                        "value": null
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.powermeter.PowerMeter"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.solarwatt.MyReservePowermeter"
+                    }
+                ],
+                "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000001"
+            }, {
+                "tagValues": {
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 0
+                    },
+                    "ForecastDateUpdate": {
+                        "tagName": "ForecastDateUpdate",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "DegreeInclination": {
+                        "tagName": "DegreeInclination",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 25
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "IdMountingType": {
+                        "tagName": "IdMountingType",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "DateInstallation": {
+                        "tagName": "DateInstallation",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 1620043039217
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": "aaaaaaaa-bbbb-cccc-dddd-000000000002"
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": "PV-Anlage"
+                    },
+                    "WorkAnnualYield": {
+                        "tagName": "WorkAnnualYield",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "AddressLocation": {
+                        "tagName": "AddressLocation",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": {
+                            "zip": "11111",
+                            "city": "berlin",
+                            "country": "DE"
+                        }
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": []
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": true
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": "com.kiwigrid.devices.pvplant\/com.kiwigrid.lib.driver.virtual.VirtualDriver"
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": []
+                    },
+                    "PowerOutForecastValues": {
+                        "tagName": "PowerOutForecastValues",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": [269.93, 283.84, 296.18, 317.95, 327.08, 334.21, 339.21, 356.55, 357.16, 355.42, 351.37, 307.07, 299.54, 290.2, 279.16, 90.53, 85.76, 80.55, 74.93, 30.18, 27.42, 24.53, 21.53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15.75, 18.73, 21.62, 131.37, 145.76, 159.47, 172.42, 283.11, 300.24, 315.79, 329.6, 465.39, 478.87, 489.41, 496.86, 304.52, 305.1, 303.68, 300.28, 367.99, 359.05, 347.93, 334.77, 289.24, 274.07, 257.48, 239.6, 31.58, 28.71, 25.7, 22.57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140.08, 166.79, 192.69, 298.79, 331.71, 363.07, 392.7, 622.23, 660.09, 694.46, 725.03, 671.18, 690.79, 706.15, 717.05, 381.06, 381.87, 380.18, 376.01, 174.92, 170.7, 165.46, 159.24, 88.53, 83.91, 78.86, 73.4, 30.94, 28.13, 25.2, 22.14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145.43, 173.38, 200.48, 76.93, 85.45, 93.57, 101.24, 195.3, 207.24, 218.09, 227.75, 295.19, 303.88, 310.71, 315.57, 275.56, 276.21, 275.05, 272.09, 313.09, 305.62, 296.29, 285.23, 307.35, 291.39, 273.91, 255.05, 360.87, 328.31, 294.21, 258.74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79.3, 94.65, 109.54, 450.89, 501.09, 548.95, 594.2, 1065.9, 1131.41, 1190.97, 1244.01, 1097.58, 1130.17, 1155.82, 1174.18, 848.89, 851.07, 847.67, 838.75, 731.09, 713.81, 692.19, 666.49, 206.03, 195.38, 183.71, 171.13, 336.9, 306.64, 274.94, 241.97, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14.63, 17.49, 20.25, 120.73, 134.24, 147.13, 159.31, 250.98, 266.48, 280.58, 293.15, 307.89, 317.11, 324.38, 329.6, 354.93, 355.92, 354.57, 350.92, 286.93, 280.22, 271.79, 261.76, 85, 80.63, 75.83, 70.66, 29.82, 27.15, 24.36, 21.45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 132.11, 158.05, 183.23, 104.7, 116.47, 127.71, 138.33, 363.45, 386.01, 406.55, 424.86, 343.89, 354.27, 362.47, 368.39, 388.49, 389.66, 388.28, 384.36, 307.64, 300.51, 291.54, 280.85, 89.23, 84.66, 79.66, 74.25, 30.64, 27.92, 25.06, 22.09, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "IdInverterList": {
+                        "tagName": "IdInverterList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": ["urn:kostal:inverter:99999UBO0001N"]
+                    },
+                    "PowerOutForecastNow": {
+                        "tagName": "PowerOutForecastNow",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 269.93
+                    },
+                    "PriceProfitFeedin": {
+                        "tagName": "PriceProfitFeedin",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 8
+                    },
+                    "DatePowerOutForecastStart": {
+                        "tagName": "DatePowerOutForecastStart",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 1639818900707
+                    },
+                    "FractionDeratingLimit": {
+                        "tagName": "FractionDeratingLimit",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "DegreeDirection": {
+                        "tagName": "DegreeDirection",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 5
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "LocationGeographical": {
+                        "tagName": "LocationGeographical",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": {
+                            "lat": "50.12345678901234",
+                            "lon": "13.12345678901234",
+                            "zip": "11111",
+                            "country": "DE"
+                        }
+                    },
+                    "PowerACOut": {
+                        "tagName": "PowerACOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 213
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": "Kiwigrid"
+                    },
+                    "PowerACOutMax": {
+                        "tagName": "PowerACOutMax",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 6999
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "FractionConfigDeratingLimit": {
+                        "tagName": "FractionConfigDeratingLimit",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "PowerLimit": {
+                        "tagName": "PowerLimit",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 5470.080000000001
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": true
+                    },
+                    "PowerInstalledPeak": {
+                        "tagName": "PowerInstalledPeak",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 6380
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "ForecastWorkOut": {
+                        "tagName": "ForecastWorkOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "ForecastPowerOut": {
+                        "tagName": "ForecastPowerOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": null
+                    },
+                    "TimePowerOutForecastGranularity": {
+                        "tagName": "TimePowerOutForecastGranularity",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 900000
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": "OK"
+                    },
+                    "WorkACOut": {
+                        "tagName": "WorkACOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002",
+                        "value": 3782557.3595833564
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.pvplant.PVPlant"
+                    }
+                ],
+                "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000002"
+            }, {
+                "tagValues": {
+                    "PowerIn": {
+                        "tagName": "PowerIn",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 85
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": true
+                    },
+                    "PowerSelfConsumed": {
+                        "tagName": "PowerSelfConsumed",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 215
+                    },
+                    "PowerSelfSupplied": {
+                        "tagName": "PowerSelfSupplied",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 215
+                    },
+                    "TimePowerConsumptionForecastGranularity": {
+                        "tagName": "TimePowerConsumptionForecastGranularity",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 900000
+                    },
+                    "WorkBufferedFromGrid": {
+                        "tagName": "WorkBufferedFromGrid",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 2.2222222222
+                    },
+                    "PriceWorkIn": {
+                        "tagName": "PriceWorkIn",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 28
+                    },
+                    "WorkConsumedFromGrid": {
+                        "tagName": "WorkConsumedFromGrid",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 991239.2512747848
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": "com.kiwigrid.devices.location\/com.kiwigrid.lib.driver.virtual.VirtualDriver"
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "TimePowerProductionForecastGranularity": {
+                        "tagName": "TimePowerProductionForecastGranularity",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 900000
+                    },
+                    "WorkConsumedFromProducers": {
+                        "tagName": "WorkConsumedFromProducers",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1101529.1764520113
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 0
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": true
+                    },
+                    "PowerOutFromProducers": {
+                        "tagName": "PowerOutFromProducers",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 6
+                    },
+                    "PowerConsumptionForecastNow": {
+                        "tagName": "PowerConsumptionForecastNow",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 974.6
+                    },
+                    "DatePowerConsumptionForecastStart": {
+                        "tagName": "DatePowerConsumptionForecastStart",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1639818960802
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "CountPersons": {
+                        "tagName": "CountPersons",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "PowerConsumed": {
+                        "tagName": "PowerConsumed",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 300
+                    },
+                    "PowerBuffered": {
+                        "tagName": "PowerBuffered",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 3
+                    },
+                    "WorkOutFromProducers": {
+                        "tagName": "WorkOutFromProducers",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 2681016.453911554
+                    },
+                    "PowerProductionForecastNow": {
+                        "tagName": "PowerProductionForecastNow",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 269.93
+                    },
+                    "DatePowerProductionForecastStart": {
+                        "tagName": "DatePowerProductionForecastStart",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1639818900707
+                    },
+                    "PowerConsumptionForecastValues": {
+                        "tagName": "PowerConsumptionForecastValues",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": [974.6, 494.69, 578.02, 285.85, 417.22, 695.42, 1282.03, 693.4, 484.46, 1003.63, 667.93, 791.74, 1162.11, 1020.34, 695.19, 852, 448.24, 476.18, 533.87, 471.9, 447.26, 382.99, 419.31, 448.58, 526.46, 254.11, 349.9, 318.64, 1699.06, 1300.16, 394.52, 390.71, 312.28, 375.78, 307.98, 404.79, 509.18, 443.92, 248.21, 335.56, 194.18, 175.99, 165.05, 196.96, 183.85, 166.46, 166.43, 177.2, 183.46, 164.92, 164.25, 201.08, 236.82, 176.83, 158.6, 169.19, 218.43, 171.3, 167.09, 167.13, 195.45, 190.82, 195.96, 162.73, 186.53, 178.71, 164.14, 158.37, 175.55, 183.17, 155.19, 151.06, 169.99, 166.91, 164.47, 120.02, 116.06, 120.57, 146.91, 149.31, 171.58, 187.58, 171.31, 157.46, 175.93, 178.45, 510.49, 255.5, 931.15, 840.84, 991.24, 568.14, 934.38, 962.08, 2054.22, 820.86, 827.97, 701.08, 1163.57, 462.57, 823.83, 925.15, 1874.35, 846.08, 1304.44, 1067.91, 997.34, 1720.12, 1050.35, 620.21, 958.97, 757.97, 759.36, 965.13, 1398.15, 986.47, 747.96, 632.14, 826.45, 1009.57, 511.43, 753.26, 1232.85, 1503.7, 499.82, 645.2, 270.13, 301.54, 263.16, 630.77, 482.58, 409.53, 348.01, 506.47, 249.84, 213.69, 218.59, 217.56, 216.59, 164.13, 184.13, 195.81, 208.02, 192.55, 175.95, 178.13, 185, 205.87, 183.32, 210.53, 180.49, 229.77, 218.26, 203.75, 199.25, 263.42, 189.77, 180.39, 176.54, 229.35, 186.61, 174.69, 177.38, 216.1, 189.09, 175.41, 169.58, 216.58, 193.24, 170.39, 177.06, 144.4, 149.07, 145.9, 142.91, 158.26, 208.46, 196.25, 244.31, 238.45, 231.34, 739.3, 1397.06, 525.48, 366.71, 402.32, 420.57, 324.75, 350.55, 337.91, 354.5, 306.67, 327.28, 300.09, 419.42, 617.64, 447.85, 658.97, 639.09, 397.79, 467.5, 947.53, 800.11, 1054.06, 741.31, 686.49, 548.2, 347.65, 741.59, 370.92, 281.32, 287.5, 431.94, 254.83, 280.43, 308, 381.44, 597.57, 1102.51, 1503.66, 488.57, 421.42, 358.59, 717.07, 537.34, 421.45, 372.86, 464.86, 978.14, 673.84, 833.95, 706.91, 421.14, 413.78, 390.66, 363.81, 334.27, 240.88, 231.21, 247.99, 223.92, 232.28, 248.64, 240.31, 236.07, 283.97, 279.51, 236.6, 216.71, 246.93, 195.56, 189.31, 229.29, 227.08, 191.67, 185.95, 217.43, 219.29, 188.22, 187.69, 182.55, 193.98, 195.12, 201.53, 190.67, 188.1, 189.33, 246.24, 172.48, 184.6, 246.83, 302.5, 194.89, 213.04, 317.78, 323.44, 453.6, 439.4, 374.95, 333.22, 251.07, 289.65, 284.89, 313.52, 329.95, 329.98, 310.27, 590.76, 1091.51, 581.66, 368.51, 753.33, 454.21, 389.23, 733.29, 348.17, 337.86, 330.07, 344.41, 497.78, 302.14, 544.35, 511.9, 667.04, 755.25, 867.48, 888.39, 705.41, 571.51, 633.65, 348.71, 324.3, 331.87, 364.23, 613.9, 552.43, 487.45, 520.14, 601.6, 542.67, 454.54, 690.14, 623.42, 595.27, 355.54, 361.2, 728.4, 646.61, 361.74, 677.07, 400.48, 272.46, 258.8, 244.87, 233.21, 254.74, 405.05, 260.21, 257.95, 243.84, 244.36, 237.72, 215.98, 250.83, 216.52, 192.58, 179.79, 201.74, 225.63, 191.1, 164.35, 181.25, 234.28, 177.36, 174.64, 177.1, 210.37, 198.92, 166.8, 176.17, 205.76, 205.11, 263.37, 152.43, 171.98, 233.64, 181.13, 170.65, 210.58, 206.38, 487.85, 457.73, 492.9, 645.32, 580.13, 555.22, 374.14, 262.58, 306.15, 364.24, 350.5, 369.64, 703.64, 655.8, 366.61, 310.47, 350.04, 289.14, 1000.91, 846.66, 481.06, 404.32, 394.24, 697.43, 405.89, 516.19, 760.04, 800.17, 485.19, 565.99, 544.16, 671.59, 830.89, 705.72, 415.54, 362.33, 306.68, 381.32, 545.18, 624.99, 883.56, 555.09, 282.72, 366.32, 360.8, 363.36, 349.06, 724.83, 490.21, 634.42, 579.25, 610.18, 456.43, 403.76, 363.69, 373.8, 339.61, 383.87, 373.96, 348.86, 236.97, 347.91, 226.2, 247.08, 220.7, 227.81, 229.83, 260.1, 245.55, 225.55, 220.38, 216.58, 221.78, 213.6, 190.19, 188.89, 192, 211.25, 192.93, 182.67, 191.74, 190.98, 193.36, 185.1, 204.71, 188.44, 196.51, 163.54, 295.09, 168.11, 171.92, 185.03, 261.31, 279.9, 169.89, 213.27, 323.43, 297.44, 249.78, 516.22, 569.46, 423.67, 420.36, 578.61, 506.59, 320.58, 312.14, 1242.74, 753.28, 419.6, 527.59, 381.64, 441.56, 351.79, 723.27, 882.15, 914.57, 1089.17, 555.08, 591.29, 1041.06, 804.49, 969.35, 686.24, 614.32, 320.34, 318.18, 1134.18, 284.96, 210.21, 284.25, 354.04, 958.08, 1082.65, 770.71, 849.99, 1338.34, 1257.29, 835.83, 463.2, 505.04, 522.97, 431.53, 449.36, 367.33, 376.56, 389.22, 536.92, 486.82, 592.92, 523.68, 448.46, 444.54, 280.98, 332.24, 236.16, 234.08, 224.11, 197.38, 217.75, 213.15, 258.65, 235.36, 227.78, 257.93, 237.32, 225.06, 177.93, 192.28, 195.39, 202.18, 170.57, 190, 192.1, 190.86, 174.61, 192.17, 180.46, 171.3, 197.61, 185.11, 188.02, 172.24, 197.47, 294.11, 142.15, 143.8, 194.33, 219.91, 169, 148.31, 211.27, 232.41, 394.62, 241.71, 295.81, 277.69, 716.42, 1909.87, 848.8, 452.75, 512.53, 948.47, 760.96, 775.48, 652.52, 317.97, 320.46, 774.94, 653.29, 488.67, 1006.46, 1118.42, 977.69, 1463.02, 1125.75, 1201.32, 942.7, 673.53, 635.1, 940.71, 758.73, 480.89, 416.66, 376.17, 531.62, 1038.6, 832.24, 633.05, 762.91, 1324.15, 686.63, 335.69, 543.87, 1159.87, 1193.81, 418.94, 400.77, 500.33, 518.98, 505.04, 411.75, 406.2, 317.31, 268.21, 254.36, 404.57, 208.45, 257.01, 200.51, 188.18, 207.1, 178.18, 183.45, 171.19, 179.26, 184.84, 200, 195.59, 213.5, 213.37, 215.39, 181.64, 179.67, 183.27, 183.12, 168.33, 170.16, 182.03, 182.63, 167.07, 162.43, 178.21, 175.55, 154.05, 157.79, 171.94, 178.74, 160.87, 164.86, 162.23, 136.83, 121.69, 131.62, 130.09, 159.37, 158, 168.1, 230.89, 174.94, 175.4, 434.71, 310.23, 498.47, 419.54, 559.73, 469.43, 725.47, 636.39, 500.54, 722.16, 737.48]
+                    },
+                    "IdDevicesMap": {
+                        "tagName": "IdDevicesMap",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": {
+                            "INNER_BUFFER": [],
+                            "INNER_CONSUMER": [],
+                            "POWERMETER_CONSUMPTION": ["aaaaaaaa-bbbb-cccc-dddd-000000000001"],
+                            "OUTER_CONSUMER": [],
+                            "OUTER_BUFFER": [],
+                            "POWERMETER_PRODUCTION": ["aaaaaaaa-bbbb-cccc-dddd-000000000001"],
+                            "OUTER_PRODUCER": [],
+                            "INNER_PRODUCER": ["aaaaaaaa-bbbb-cccc-dddd-000000000002"]
+                        }
+                    },
+                    "PowerProductionForecastValues": {
+                        "tagName": "PowerProductionForecastValues",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": [269.93, 283.84, 296.18, 317.95, 327.08, 334.21, 339.21, 356.55, 357.16, 355.42, 351.37, 307.07, 299.54, 290.2, 279.16, 90.53, 85.76, 80.55, 74.93, 30.18, 27.42, 24.53, 21.53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15.75, 18.73, 21.62, 131.37, 145.76, 159.47, 172.42, 283.11, 300.24, 315.79, 329.6, 465.39, 478.87, 489.41, 496.86, 304.52, 305.1, 303.68, 300.28, 367.99, 359.05, 347.93, 334.77, 289.24, 274.07, 257.48, 239.6, 31.58, 28.71, 25.7, 22.57, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140.08, 166.79, 192.69, 298.79, 331.71, 363.07, 392.7, 622.23, 660.09, 694.46, 725.03, 671.18, 690.79, 706.15, 717.05, 381.06, 381.87, 380.18, 376.01, 174.92, 170.7, 165.46, 159.24, 88.53, 83.91, 78.86, 73.4, 30.94, 28.13, 25.2, 22.14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145.43, 173.38, 200.48, 76.93, 85.45, 93.57, 101.24, 195.3, 207.24, 218.09, 227.75, 295.19, 303.88, 310.71, 315.57, 275.56, 276.21, 275.05, 272.09, 313.09, 305.62, 296.29, 285.23, 307.35, 291.39, 273.91, 255.05, 360.87, 328.31, 294.21, 258.74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79.3, 94.65, 109.54, 450.89, 501.09, 548.95, 594.2, 1065.9, 1131.41, 1190.97, 1244.01, 1097.58, 1130.17, 1155.82, 1174.18, 848.89, 851.07, 847.67, 838.75, 731.09, 713.81, 692.19, 666.49, 206.03, 195.38, 183.71, 171.13, 336.9, 306.64, 274.94, 241.97, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14.63, 17.49, 20.25, 120.73, 134.24, 147.13, 159.31, 250.98, 266.48, 280.58, 293.15, 307.89, 317.11, 324.38, 329.6, 354.93, 355.92, 354.57, 350.92, 286.93, 280.22, 271.79, 261.76, 85, 80.63, 75.83, 70.66, 29.82, 27.15, 24.36, 21.45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 132.11, 158.05, 183.23, 104.7, 116.47, 127.71, 138.33, 363.45, 386.01, 406.55, 424.86, 343.89, 354.27, 362.47, 368.39, 388.49, 389.66, 388.28, 384.36, 307.64, 300.51, 291.54, 280.85, 89.23, 84.66, 79.66, 74.25, 30.64, 27.92, 25.06, 22.09, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                    },
+                    "AddressLocation": {
+                        "tagName": "AddressLocation",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": {
+                            "zip": "11111",
+                            "city": "berlin",
+                            "country": "DE"
+                        }
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": "aaaaaaaa-bbbb-cccc-dddd-000000000003"
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": []
+                    },
+                    "PowerBufferedFromGrid": {
+                        "tagName": "PowerBufferedFromGrid",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1
+                    },
+                    "WorkIn": {
+                        "tagName": "WorkIn",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 991239.2512747848
+                    },
+                    "PowerConsumedFromGrid": {
+                        "tagName": "PowerConsumedFromGrid",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 85
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": "Standort 1"
+                    },
+                    "PowerBufferedFromProducers": {
+                        "tagName": "PowerBufferedFromProducers",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 2
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "PowerConsumedFromStorage": {
+                        "tagName": "PowerConsumedFromStorage",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 4
+                    },
+                    "PowerOut": {
+                        "tagName": "PowerOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 5
+                    },
+                    "WorkBuffered": {
+                        "tagName": "WorkBuffered",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1.1111111111
+                    },
+                    "WorkConsumed": {
+                        "tagName": "WorkConsumed",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 2092768.4277269384
+                    },
+                    "LocationGeographical": {
+                        "tagName": "LocationGeographical",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "WorkConsumedFromStorage": {
+                        "tagName": "WorkConsumedFromStorage",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 4.444444444
+                    },
+                    "WorkSelfConsumed": {
+                        "tagName": "WorkSelfConsumed",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1101529.1764520113
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": null
+                    },
+                    "PowerOutFromStorage": {
+                        "tagName": "PowerOutFromStorage",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 7
+                    },
+                    "WorkBufferedFromProducers": {
+                        "tagName": "WorkBufferedFromProducers",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 3.3333333333
+                    },
+                    "WorkOutFromStorage": {
+                        "tagName": "WorkOutFromStorage",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 5.5555555555
+                    },
+                    "WorkProduced": {
+                        "tagName": "WorkProduced",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 3782545.6303635743
+                    },
+                    "WorkReleased": {
+                        "tagName": "WorkReleased",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 0
+                    },
+                    "WorkSelfSupplied": {
+                        "tagName": "WorkSelfSupplied",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 1101529.1764520113
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": "OK"
+                    },
+                    "PowerReleased": {
+                        "tagName": "PowerReleased",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 0
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": []
+                    },
+                    "PowerProduced": {
+                        "tagName": "PowerProduced",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 215
+                    },
+                    "WorkOut": {
+                        "tagName": "WorkOut",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 2684420.79755769
+                    },
+                    "PowerConsumedFromProducers": {
+                        "tagName": "PowerConsumedFromProducers",
+                        "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003",
+                        "value": 215
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.location.Location"
+                    }
+                ],
+                "guid": "aaaaaaaa-bbbb-cccc-dddd-000000000003"
+            }, {
+                "tagValues": {
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": "com.kiwigrid.devices.simpleswitcher\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "MigratedToScheduleApp": {
+                        "tagName": "MigratedToScheduleApp",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": true
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": null
+                    },
+                    "ScheduleSwitchStates": {
+                        "tagName": "ScheduleSwitchStates",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": {}
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": false
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": "urn:simpleswitcher:ERC05-000099999"
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": null
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": false
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": "SimpleSwitcher"
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": 0
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:simpleswitcher:ERC05-000099999",
+                        "value": []
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.simpleswitcher.SimpleSwitcher"
+                    }
+                ],
+                "guid": "urn:simpleswitcher:ERC05-000099999"
+            }, {
+                "tagValues": {
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": 0
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": "SEM"
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdConsumerSettingsMap": {
+                        "tagName": "IdConsumerSettingsMap",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": {}
+                    },
+                    "IdConsumerManagementIntervalsMap": {
+                        "tagName": "IdConsumerManagementIntervalsMap",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": {}
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": "com.solarwatt.devices.sem\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "ModeActive": {
+                        "tagName": "ModeActive",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": false
+                    },
+                    "MigratedToScheduleApp": {
+                        "tagName": "MigratedToScheduleApp",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": true
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "PowerInSwitchedOnDevices": {
+                        "tagName": "PowerInSwitchedOnDevices",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": 0
+                    },
+                    "IdConsumerSelectionList": {
+                        "tagName": "IdConsumerSelectionList",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": []
+                    },
+                    "ModeManagement": {
+                        "tagName": "ModeManagement",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": "OFF"
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "IdManageableDeviceInfo": {
+                        "tagName": "IdManageableDeviceInfo",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": {
+                            "aaaaaaaa-bbbb-cccc-dddd-000000000003": {
+                                "powerPotencial": -85,
+                                "activeDevices": []
+                            }
+                        }
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": "urn:solarwatt:sem:ERC05-000099999"
+                    },
+                    "IdDevicesMap": {
+                        "tagName": "IdDevicesMap",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": {
+                            "LOCATION": ["aaaaaaaa-bbbb-cccc-dddd-000000000003"],
+                            "INVERTER": ["urn:kostal:inverter:99999UBO0001N"],
+                            "PV_PLANT": ["aaaaaaaa-bbbb-cccc-dddd-000000000002"]
+                        }
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": false
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": false
+                    },
+                    "ModeTestActive": {
+                        "tagName": "ModeTestActive",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": false
+                    },
+                    "FractionFeedInTestLimit": {
+                        "tagName": "FractionFeedInTestLimit",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": []
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": null
+                    },
+                    "FractionFeedInLimit": {
+                        "tagName": "FractionFeedInLimit",
+                        "guid": "urn:solarwatt:sem:ERC05-000099999",
+                        "value": 70
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.solarwatt.devices.sem.SmartEnergyManagement"
+                    }
+                ],
+                "guid": "urn:solarwatt:sem:ERC05-000099999"
+            }, {
+                "tagValues": {
+                    "PowerACOut": {
+                        "tagName": "PowerACOut",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 213
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": []
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "urn:kostal:inverter:99999UBO0001N"
+                    },
+                    "PowerACOutMax": {
+                        "tagName": "PowerACOutMax",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 6999
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "KOSTAL"
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": true
+                    },
+                    "PowerStringDCIn": {
+                        "tagName": "PowerStringDCIn",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": null
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "99999UBO0001N"
+                    },
+                    "WorkACOut": {
+                        "tagName": "WorkACOut",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 3784913.125549068
+                    },
+                    "ACPower": {
+                        "tagName": "ACPower",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": null
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "com.kiwigrid.devices.kostal.plenticore\/.driver.KostalDriverService"
+                    },
+                    "PowerYieldSum": {
+                        "tagName": "PowerYieldSum",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": null
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": ["emi:\/\/energymanager-rail\/eth\/0"]
+                    },
+                    "WorkOutPrevious": {
+                        "tagName": "WorkOutPrevious",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 3785145.5
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": null
+                    },
+                    "FrequencyGrid": {
+                        "tagName": "FrequencyGrid",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 50.0030517578125
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "KOSTAL PLENTICORE plus 7.0 Inverter (Nr. 99999UBO0001N)"
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "01.57"
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "OK"
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": false
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": "PLENTICORE plus"
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": null
+                    },
+                    "BoardTemperature": {
+                        "tagName": "BoardTemperature",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 44.64111328125
+                    },
+                    "PowerACOutLimit": {
+                        "tagName": "PowerACOutLimit",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 5470.080000000001
+                    },
+                    "PowerInstalledPeak": {
+                        "tagName": "PowerInstalledPeak",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": null
+                    },
+                    "InverterState": {
+                        "tagName": "InverterState",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 6
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:kostal:inverter:99999UBO0001N",
+                        "value": 0
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.inverter.Inverter"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.kostal.plenticore.KostalInverter"
+                    }
+                ],
+                "guid": "urn:kostal:inverter:99999UBO0001N"
+            }, {
+                "tagValues": {
+                    "ExchangeDevice": {
+                        "tagName": "ExchangeDevice",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "TimeSinceStart": {
+                        "tagName": "TimeSinceStart",
+                        "guid": "ERC05-000099999",
+                        "value": 8283900008
+                    },
+                    "FractionCPULoadAverageLastFiveMinutes": {
+                        "tagName": "FractionCPULoadAverageLastFiveMinutes",
+                        "guid": "ERC05-000099999",
+                        "value": 2.25
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "ERC05-000099999",
+                        "value": "ERC05-000099999"
+                    },
+                    "SettingsProxyMap": {
+                        "tagName": "SettingsProxyMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "enabled": "false"
+                        }
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "FractionCPULoadUser": {
+                        "tagName": "FractionCPULoadUser",
+                        "guid": "ERC05-000099999",
+                        "value": 0.26
+                    },
+                    "URLProxy": {
+                        "tagName": "URLProxy",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "ERC05-000099999",
+                        "value": "ERC05-000099999"
+                    },
+                    "IdDevicesMap": {
+                        "tagName": "IdDevicesMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "aaaaaaaa-bbbb-cccc-dddd-000000000001": "com.kiwigrid.devices.solarwatt.MyReservePowermeter~6.0.1.1",
+                            "aaaaaaaa-bbbb-cccc-dddd-000000000002": "com.kiwigrid.devices.pvplant.PVPlant~5.23.0.0",
+                            "urn:app:profile:ERC05-000099999": "com.kiwigrid.application.schedule.ProfileApp~1.2.0.0",
+                            "urn:kiwigrid:gridflow:ERC05-000099999": "com.kiwigrid.kiwiapp.gridflow.GridFlow~2.20.0.6",
+                            "urn:kostal:inverter:99999UBO0001N": "com.kiwigrid.devices.kostal.plenticore.KostalInverter~6.0.7.0",
+                            "urn:forecast:ERC05-000099999": "com.solarwatt.devices.forecast.Forecast~1.3.0.6",
+                            "urn:app:schedule:ERC05-000099999": "com.kiwigrid.application.schedule.ScheduleApp~1.2.0.0",
+                            "aaaaaaaa-bbbb-cccc-dddd-000000000003": "com.kiwigrid.devices.location.Location~5.23.0.0",
+                            "urn:simpleswitcher:ERC05-000099999": "com.kiwigrid.devices.simpleswitcher.SimpleSwitcher~1.2.0.2",
+                            "urn:solarwatt:sem:ERC05-000099999": "com.solarwatt.devices.sem.SmartEnergyManagement~2.1.0.8"
+                        }
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "ERC05-000099999",
+                        "value": false
+                    },
+                    "SettingsNetworkMap": {
+                        "tagName": "SettingsNetworkMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "ipv4": "192.168.178.62",
+                            "gateway": "192.168.178.1",
+                            "subnet": "255.255.255.0",
+                            "dhcp": "true",
+                            "dns": "192.168.178.1"
+                        }
+                    },
+                    "InstallConfiguration": {
+                        "tagName": "InstallConfiguration",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "ERC05-000099999",
+                        "value": 0
+                    },
+                    "VersionExtensionsMap": {
+                        "tagName": "VersionExtensionsMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "energymanager-rail": "7.21.1.0"
+                        }
+                    },
+                    "SettingsMap": {
+                        "tagName": "SettingsMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "kg.core.settings.version": "10",
+                            "kg.core.update.release.current": "7.32.1.0",
+                            "kg.core.interface.emi:\/\/energymanager-rail\/can\/0": "[\"com.kiwigrid.devices.solarwatt\\\/com.kiwigrid.devices.solarwatt.driver.MyReserveDriverService\"]",
+                            "kg.core.interface.emi:\/\/energymanager-rail\/eth\/0": "[\"com.kiwigrid.devices.kostal.plenticore\\\/com.kiwigrid.devices.kostal.plenticore.driver.KostalDriverService\"]",
+                            "kg.core.easyinstall.emi:\/\/energymanager-rail\/eth\/0": "[\"com.kiwigrid.devices.kostal.plenticore\\\/com.kiwigrid.devices.kostal.plenticore.driver.KostalDriverService\"]",
+                            "kg.core.easyinstall.emi:\/\/energymanager-rail\/can\/0": "[\"com.kiwigrid.devices.solarwatt\\\/com.kiwigrid.devices.solarwatt.driver.MyReserveDriverService\"]",
+                            "kg.core.datacollection.pkgblacklist": "[\"com.kiwigrid.launcher.solarworld\",\"com.kiwigrid.launcher.sharp\"]",
+                            "kg.core.driver.smartheatpumps.config": "[{\"interfaces\":[]}]",
+                            "kg.core.driver.kostal.plenticore.servers": "[{\"address\":\"192.168.178.61\"}]",
+                            "kg.core.datacollection.tagsyncviarest": "true",
+                            "kg.core.network.ip.configuration": "dhcp",
+                            "kg.wizard.settings.steps": "{\"stepSetupProducers\":\"COMPLETE\",\"stepSetupHouseConsumption\":\"COMPLETE\",\"stepSetupLocation\":\"COMPLETE\"}",
+                            "kg.privacy.cloudsynchronizationenabled": "true",
+                            "kg.core.update.release.max": "7.32.1.0",
+                            "kg.core.portal.owner.username": "user",
+                            "kg.core.driver.solarwatt.config": "[{\"ethernetEnabled\":true,\"encryptedCommunicationEnabled\":false,\"encryptedBFCommunicationEnabled\":false}]",
+                            "kg.core.driver.sunspec.blacklist.datapoints": "[\"StateOfCharge\",\"WorkBatteryCapacity\"]",
+                            "kg.core.portal.fitter.username": "CarstenLauterbach",
+                            "kg.core.cleanup.threshold.mb": "15",
+                            "kg.core.update.release.target": "7.32.1.0"
+                        }
+                    },
+                    "URLCloud": {
+                        "tagName": "URLCloud",
+                        "guid": "ERC05-000099999",
+                        "value": "auth.kiwigrid.com"
+                    },
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "ERC05-000099999",
+                        "value": false
+                    },
+                    "Command": {
+                        "tagName": "Command",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "FractionCPULoadAverageLastFifteenMinutes": {
+                        "tagName": "FractionCPULoadAverageLastFifteenMinutes",
+                        "guid": "ERC05-000099999",
+                        "value": 1.29
+                    },
+                    "FractionCPULoadAverageLastMinute": {
+                        "tagName": "FractionCPULoadAverageLastMinute",
+                        "guid": "ERC05-000099999",
+                        "value": 2.97
+                    },
+                    "LocationGeographical": {
+                        "tagName": "LocationGeographical",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    },
+                    "DateTagCollectorWatchdogEvents": {
+                        "tagName": "DateTagCollectorWatchdogEvents",
+                        "guid": "ERC05-000099999",
+                        "value": []
+                    },
+                    "SettingsDatetimeMap": {
+                        "tagName": "SettingsDatetimeMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "ntpServer": "2.android.pool.ntp.org",
+                            "timestamp": "1639819099967",
+                            "ntpServerDefault": "pool.ntp.org",
+                            "timezone": "Europe\/Berlin",
+                            "ntp": "true"
+                        }
+                    },
+                    "VersionLocalApplicationsMap": {
+                        "tagName": "VersionLocalApplicationsMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "com.kiwigrid.application.wizard.solarwatt": "3.87.4.0"
+                        }
+                    },
+                    "IdInterfacesMap": {
+                        "tagName": "IdInterfacesMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "emi:\/\/ERC05-000099999\/rs485\/1": "RS485",
+                            "emi:\/\/ERC05-000099999\/rs232\/0": "RS232",
+                            "emi:\/\/energymanager-rail\/can\/0": "CAN",
+                            "emi:\/\/ERC05-000099999\/rs485\/0": "RS485",
+                            "emi:\/\/ERC05-000099999\/di\/0": "DIGITAL_INPUT",
+                            "emi:\/\/ERC05-000099999\/di\/1": "DIGITAL_INPUT",
+                            "emi:\/\/energymanager-rail\/eth\/0": "ETHERNET"
+                        }
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "ERC05-000099999",
+                        "value": "com.kiwigrid.core\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "StatusMonitoringMap": {
+                        "tagName": "StatusMonitoringMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "memory_total": 517824512,
+                            "disk_size": 1260666880,
+                            "memory_available": 17768448,
+                            "disk_free": 910651392
+                        }
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "ERC05-000099999",
+                        "value": []
+                    },
+                    "DateCloudLastSeen": {
+                        "tagName": "DateCloudLastSeen",
+                        "guid": "ERC05-000099999",
+                        "value": 1639819099510
+                    },
+                    "IdSystemImageVersion": {
+                        "tagName": "IdSystemImageVersion",
+                        "guid": "ERC05-000099999",
+                        "value": 72101000
+                    },
+                    "IdRemoteAppSet": {
+                        "tagName": "IdRemoteAppSet",
+                        "guid": "ERC05-000099999",
+                        "value": []
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "ERC05-000099999",
+                        "value": "ERC05"
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "ERC05-000099999",
+                        "value": []
+                    },
+                    "IdBootLoaderVersion": {
+                        "tagName": "IdBootLoaderVersion",
+                        "guid": "ERC05-000099999",
+                        "value": "g301ff18"
+                    },
+                    "VersionPackagesMap": {
+                        "tagName": "VersionPackagesMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "com.solarwatt.devices.sem": "3.6.8.0",
+                            "com.android.keychain": "6.0.1",
+                            "com.kiwigrid.devices.janitza": "6.0.2.0",
+                            "com.kiwigrid.timeseries": "7.32.1.0",
+                            "com.android.providers.settings": "6.0.1",
+                            "com.kiwigrid.launcher": "7.32.1.0",
+                            "com.kiwigrid.devices.kostal.plenticore": "1.7.0.0",
+                            "com.kiwigrid.sw.launcher": "6.0.1",
+                            "com.kiwigrid.devices.relay": "6.0.0.0",
+                            "com.kiwigrid.application.schedule": "1.14.1.0",
+                            "com.kiwigrid.devices.sml": "6.4.2.0",
+                            "com.kiwigrid.devices.solarwatt.BatteryFlex": "1.2.0.0",
+                            "com.android.packageinstaller": "6.0.1",
+                            "com.kiwigrid.drivers.kostal": "6.0.0.0",
+                            "com.kiwigrid.devices.plugwise": "6.1.1.0",
+                            "com.kiwigrid.launcher.solarwatt": "6.0.2.0",
+                            "com.kiwigrid.masterservice": "7.21.1.0",
+                            "com.kiwigrid.application.wizard.solarwatt": "3.87.4.0",
+                            "com.kiwigrid.update": "7.21.1.0",
+                            "com.kiwigrid.devices.keba.ev": "1.5.2.0",
+                            "com.kiwigrid.devices.steca": "6.0.3.0",
+                            "com.kiwigrid.devices.mbus": "6.0.0.0",
+                            "com.kiwigrid.devices.fibaro": "6.0.2.0",
+                            "com.kiwigrid.webserver": "7.32.1.0",
+                            "com.kiwigrid.application.gridflow.headless": "3.20.3.3",
+                            "com.kiwigrid.devices.mystrom.plug": "1.5.0.0",
+                            "com.kiwigrid.devices.s0counter": "6.2.7.0",
+                            "com.android.defcontainer": "6.0.1",
+                            "com.android.shell": "6.0.1",
+                            "com.kiwigrid.devices.simpleswitcher": "2.4.2.0",
+                            "com.kiwigrid.device.sma": "6.0.0.0",
+                            "com.kiwigrid.tunnel": "7.32.1.0",
+                            "com.kiwigrid.devices.location": "6.4.0.0",
+                            "com.kiwigrid.devices.smartheatpumps": "6.0.0.0",
+                            "com.kiwigrid.devices.sunspec": "6.4.2.0",
+                            "com.solarwatt.devices.forecast": "2.5.3.0",
+                            "com.android.certinstaller": "6.0.1",
+                            "android": "6.0.1",
+                            "com.kiwigrid.drivers.s0counter": "6.2.7.0",
+                            "com.kiwigrid.core": "7.32.1.0",
+                            "com.kiwigrid.devices.combinedplug": "6.1.0.0",
+                            "com.android.development": "1.0",
+                            "com.kiwigrid.devices.webasto": "1.8.8.0",
+                            "com.kiwigrid.devices.pvplant": "6.1.0.0",
+                            "com.kiwigrid.hal": "7.21.1.0",
+                            "com.kiwigrid.devices.solarwatt": "7.13.0.0",
+                            "com.kiwigrid.devices.ego": "6.0.0.0"
+                        }
+                    },
+                    "FractionTopFiveProcessesMap": {
+                        "tagName": "FractionTopFiveProcessesMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "com.kiwigrid.webserver": 0.017,
+                            "com.kiwigrid.core": 0.18,
+                            "com.kiwigrid.timeseries": 0.013999999999999999,
+                            "com.kiwigrid.application.wizard.solarwatt": 0.033,
+                            "com.kiwigrid.devices.kostal.plenticore": 0.021
+                        }
+                    },
+                    "FractionCPULoadKernel": {
+                        "tagName": "FractionCPULoadKernel",
+                        "guid": "ERC05-000099999",
+                        "value": 0.042
+                    },
+                    "SettingsPrivacyMap": {
+                        "tagName": "SettingsPrivacyMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "tunnelenabled": true,
+                            "debugenabled": true,
+                            "cloudsynchronizationenabled": true
+                        }
+                    },
+                    "FractionCPULoadTotal": {
+                        "tagName": "FractionCPULoadTotal",
+                        "guid": "ERC05-000099999",
+                        "value": 0.3
+                    },
+                    "IdTimezone": {
+                        "tagName": "IdTimezone",
+                        "guid": "ERC05-000099999",
+                        "value": "Europe\/Berlin"
+                    },
+                    "IdOwner": {
+                        "tagName": "IdOwner",
+                        "guid": "ERC05-000099999",
+                        "value": "user"
+                    },
+                    "DriverMap": {
+                        "tagName": "DriverMap",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "com.kiwigrid.devices.sml\/com.kiwigrid.sml.driver.SMLDriverService": ["USB"],
+                            "com.kiwigrid.drivers.kostal\/com.kiwigrid.drivers.kostal.driver.KostalDriverService": ["RS485"],
+                            "com.kiwigrid.devices.ego\/com.kiwigrid.devices.ego.driver.EGODriverService": ["ETHERNET", "RS485"],
+                            "com.kiwigrid.application.gridflow.headless\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver": [],
+                            "com.kiwigrid.devices.simpleswitcher\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver": [],
+                            "com.kiwigrid.core\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver": [],
+                            "com.kiwigrid.devices.plugwise\/com.kiwigrid.devices.plugwise.driver.PlugwiseDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.pvplant\/com.kiwigrid.lib.driver.virtual.VirtualDriver": [],
+                            "com.kiwigrid.devices.combinedplug\/com.kiwigrid.lib.driver.virtual.VirtualDriver": [],
+                            "com.kiwigrid.devices.relay\/com.kiwigrid.devices.relay.driver.RelayDriverService": ["DIGITAL_OUTPUT"],
+                            "com.kiwigrid.devices.steca\/com.kiwigrid.devices.steca.driver.StecaDriverService": ["RS485"],
+                            "com.kiwigrid.devices.solarwatt\/com.kiwigrid.devices.solarwatt.driver.MyReserveDriverService": ["CAN", "ETHERNET"],
+                            "com.kiwigrid.devices.sunspec\/com.kiwigrid.devices.sunspec.driver.SunSpecModbusDriverService": ["RS485", "ETHERNET"],
+                            "com.kiwigrid.drivers.sma\/com.kiwigrid.drivers.sma.SMADriverService": ["RS485"],
+                            "com.solarwatt.devices.sem\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver": [],
+                            "com.kiwigrid.devices.fibaro\/com.kiwigrid.devices.fibaro.driver.FibaroDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.smartheatpumps\/com.kiwigrid.devices.smartheatpumps.driver.SmartHeatPumpsDriverService": ["DIGITAL_OUTPUT"],
+                            "com.kiwigrid.application.schedule\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver": [],
+                            "com.kiwigrid.devices.janitza\/com.kiwigrid.devices.janitza.driver.JanitzaDriverService": ["RS485", "ETHERNET"],
+                            "com.solarwatt.devices.forecast\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver": [],
+                            "com.kiwigrid.devices.webasto\/com.kiwigrid.devices.webasto.driver.WebastoOcppDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.keba.ev\/com.kiwigrid.devices.keba.ev.KebaDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.mystrom.plug\/com.kiwigrid.devices.mystrom.plug.MyStromDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.location\/com.kiwigrid.lib.driver.virtual.VirtualDriver": [],
+                            "com.kiwigrid.devices.kostal.plenticore\/com.kiwigrid.devices.kostal.plenticore.driver.KostalDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.solarwatt.BatteryFlex\/com.kiwigrid.devices.solarwatt.BatteryFlex.driver.BatteryFlexDriverService": ["ETHERNET"],
+                            "com.kiwigrid.devices.mbus\/com.kiwigrid.devices.mbus.driver.MBusDriverService": ["MBUS"],
+                            "com.kiwigrid.drivers.s0counter\/com.kiwigrid.drivers.s0counter.S0CounterDriverService": ["DIGITAL_INPUT"]
+                        }
+                    },
+                    "StateAction": {
+                        "tagName": "StateAction",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "progress": -1
+                        }
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "ERC05-000099999",
+                        "value": "7.32.1.0"
+                    },
+                    "ReasonReboots": {
+                        "tagName": "ReasonReboots",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "1631535177": "POR",
+                            "1620040047": "RST",
+                            "1620133918": "WDG",
+                            "1624086804": "WDG"
+                        }
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "ERC05-000099999",
+                        "value": "ERC05-000099999"
+                    },
+                    "IdNotInstalledDevicesMap": {
+                        "tagName": "IdNotInstalledDevicesMap",
+                        "guid": "ERC05-000099999",
+                        "value": {}
+                    },
+                    "AddressLocation": {
+                        "tagName": "AddressLocation",
+                        "guid": "ERC05-000099999",
+                        "value": {
+                            "zip": "11111",
+                            "country": "DE",
+                            "city": "berlin"
+                        }
+                    },
+                    "IdDriverList": {
+                        "tagName": "IdDriverList",
+                        "guid": "ERC05-000099999",
+                        "value": null
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.devices.em.EnergyManager"
+                    }
+                ],
+                "guid": "ERC05-000099999"
+            }, {
+                "tagValues": {
+                    "IdManufacturer": {
+                        "tagName": "IdManufacturer",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "ToCloudDataTag": {
+                        "tagName": "ToCloudDataTag",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdDriver": {
+                        "tagName": "IdDriver",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": "com.kiwigrid.application.gridflow.headless\/com.kiwigrid.lib.ddk.driver.StaticDeviceDriver"
+                    },
+                    "CurrentLimit": {
+                        "tagName": "CurrentLimit",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": 50
+                    },
+                    "ConfigInverterControl": {
+                        "tagName": "ConfigInverterControl",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "on": true,
+                            "dynamicControllingOn": true,
+                            "isErrorPVLimiting": false,
+                            "feedInLimit": 0.7,
+                            "isPVPlantConfigured": true,
+                            "activeTestMode": false,
+                            "testModeFeedInLimit": 0.1,
+                            "controllerParameter": {
+                                "proportionalRate": 0.35,
+                                "integrationRate": 0.3,
+                                "differentialRate": 0,
+                                "outputRampRateLimit": 1000,
+                                "outputValueLimit": 500,
+                                "controlFaultSumLimit": 500
+                            },
+                            "dynamicControllerParameter": {
+                                "proportionalRate": 0.05,
+                                "integrationRate": 0.05,
+                                "differentialRate": 0,
+                                "outputRampRateLimit": 200,
+                                "outputValueLimit": 200,
+                                "controlFaultSumLimit": 100
+                            },
+                            "limitByRcr": false,
+                            "selectedRcr": null
+                        }
+                    },
+                    "ConfigTimeshifting": {
+                        "tagName": "ConfigTimeshifting",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "StateVisibleIsSet": {
+                        "tagName": "StateVisibleIsSet",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": false
+                    },
+                    "ConfigEvStationControl": {
+                        "tagName": "ConfigEvStationControl",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "active": false,
+                            "hysteresisParameter": {
+                                "lowerBound": 0,
+                                "upperBound": 0.02
+                            },
+                            "evStationConfig": []
+                        }
+                    },
+                    "IdFingerPrintVersion": {
+                        "tagName": "IdFingerPrintVersion",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": 0
+                    },
+                    "IdFingerPrint": {
+                        "tagName": "IdFingerPrint",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": "urn:kiwigrid:gridflow:ERC05-000099999"
+                    },
+                    "IdModelCode": {
+                        "tagName": "IdModelCode",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdInterfaceList": {
+                        "tagName": "IdInterfaceList",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": []
+                    },
+                    "StateDevice": {
+                        "tagName": "StateDevice",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": "OK"
+                    },
+                    "LogLevel": {
+                        "tagName": "LogLevel",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": "INFO"
+                    },
+                    "StateLockedIsSet": {
+                        "tagName": "StateLockedIsSet",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": false
+                    },
+                    "ToEMRequestTag": {
+                        "tagName": "ToEMRequestTag",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdSerialNumber": {
+                        "tagName": "IdSerialNumber",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "ConfigEvStationChargingControl": {
+                        "tagName": "ConfigEvStationChargingControl",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "active": false,
+                            "powerLimit": 100,
+                            "standbyTime": 300,
+                            "chargingTrialDuration": 30
+                        }
+                    },
+                    "IdName": {
+                        "tagName": "IdName",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": "GridFlow"
+                    },
+                    "ConfigForecastBatteryControl": {
+                        "tagName": "ConfigForecastBatteryControl",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "active": false
+                        }
+                    },
+                    "StateErrorList": {
+                        "tagName": "StateErrorList",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "ConfigPeakshaving": {
+                        "tagName": "ConfigPeakshaving",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "active": true,
+                            "peakShavingIntervalInMillis": 90000
+                        }
+                    },
+                    "PowerSetpoint": {
+                        "tagName": "PowerSetpoint",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": 0
+                    },
+                    "PasswordLock": {
+                        "tagName": "PasswordLock",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdFirmware": {
+                        "tagName": "IdFirmware",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "FractionPVTestLimit": {
+                        "tagName": "FractionPVTestLimit",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "IdLabelSet": {
+                        "tagName": "IdLabelSet",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": null
+                    },
+                    "ConfigSgReady": {
+                        "tagName": "ConfigSgReady",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "active": false,
+                            "nominalPower": 0
+                        }
+                    },
+                    "ConfigBatteryControl": {
+                        "tagName": "ConfigBatteryControl",
+                        "guid": "urn:kiwigrid:gridflow:ERC05-000099999",
+                        "value": {
+                            "active": false,
+                            "additionalConsumptionSoCLimit": 98,
+                            "controllerParameter": {
+                                "proportionalRate": 0.125,
+                                "integrationRate": 0.04,
+                                "differentialRate": 0,
+                                "outputRampRateLimit": 300,
+                                "outputValueLimit": 300,
+                                "controlFaultSumLimit": 150
+                            },
+                            "hysteresisParameter": {
+                                "lowerBound": 0.02,
+                                "upperBound": 0.035
+                            },
+                            "strategy": "capacityBasedMultiBatteryStrategy",
+                            "batteryPriority": []
+                        }
+                    }
+                },
+                "deviceModel": [{
+                        "deviceClass": "com.kiwigrid.lib.device.Device"
+                    }, {
+                        "deviceClass": "com.kiwigrid.kiwiapp.gridflow.GridFlow"
+                    }
+                ],
+                "guid": "urn:kiwigrid:gridflow:ERC05-000099999"
+            }
+        ]
+    }
+}
