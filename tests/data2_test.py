@@ -2,8 +2,8 @@ import json
 import os
 import unittest
 
-from src.energy_manager_data import EnergyManagerData
-from src.location_device import LocationDevice
+from src.solarwatt_energymanager import EnergyManagerData
+from src.solarwatt_energymanager import LocationDevice
 
 TESTJSON_FILENAME = os.path.join(os.path.dirname(__file__), 'data2.json')
 

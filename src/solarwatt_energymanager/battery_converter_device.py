@@ -1,5 +1,5 @@
-from typing import Any, Dict, Final, List, Optional
-from src.device import Device
+from typing import Final
+from . import Device
 
 class BatteryConverterDevice(Device):
     """The battery converter EnergyManager device. Contains info about flow to and from battery."""

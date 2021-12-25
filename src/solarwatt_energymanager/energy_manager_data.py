@@ -28,12 +28,11 @@ result: {
 }
 """
 
-from typing import Any, Dict, Final, List, Optional
-from src.battery_converter_device import BatteryConverterDevice
-from src.device import Device
-
-from src.energy_manager_device import EnergyManagerDevice
-from src.location_device import LocationDevice
+from typing import Dict, List, Optional
+from . import BatteryConverterDevice
+from . import Device
+from . import EnergyManagerDevice
+from . import LocationDevice
 
 
 class EnergyManagerData:

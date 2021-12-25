@@ -1,5 +1,5 @@
-from typing import Any, Dict, Final, List, Optional
-from src.device import Device
+from typing import Final
+from . import Device
 
 
 class EnergyManagerDevice(Device):

@@ -3,12 +3,9 @@
 import aiohttp
 import logging
 from typing import Optional
-from src.energy_manager_data import EnergyManagerData
-
-from src.energy_manager_device import EnergyManagerDevice
+from . import EnergyManagerData
 
 _LOGGER = logging.getLogger(__name__)
-
 
 class EnergyManager:
     """The energy manager accessor class."""
@@ -27,9 +24,8 @@ class EnergyManager:
         except Exception:
             raise CannotConnect
 
-        devices = EnergyManagerDevice()
-        devices.read_json(json_data)
-        energy_manager = devices.get_energy_manager_device()
+        data = EnergyManagerData(json_data)
+        energy_manager = data.energy_manager_device
         try:
             if energy_manager is None:
                 raise CannotParseData
@@ -37,7 +33,7 @@ class EnergyManager:
             raise CannotParseData
         return energy_manager.guid
 
-    async def query_devices(self) -> Optional[EnergyManagerData]:
+    async def get_data(self) -> Optional[EnergyManagerData]:
         """Query the EnergyManager and return the parsed data."""
         try:
             json = await self.query_json_data()
@@ -46,8 +42,7 @@ class EnergyManager:
             return None
 
         try:
-            devices = EnergyManagerData()
-            devices.read_json(json)
+            devices = EnergyManagerData(json)
             return devices
         except Exception as e:
             _LOGGER.error("Error parsing JSON data from EnergyManager: %s", e)

@@ -1,4 +1,4 @@
-from typing import Any, Dict, Final, List, Optional
+from typing import Any, Dict, List
 
 
 class Device:
