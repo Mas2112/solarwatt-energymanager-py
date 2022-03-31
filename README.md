@@ -1,15 +1,18 @@
 # solarwatt-energymanager
 An unofficial python package for querying data from the SOLARWATT Energy Manager.
 
-The goal of this library is to make it easy to query the data, and provides a sort of documentation of what kinds of fields are available.
+This package provides well defined types so that it is easy to find the data you need.
 
+Note: Most of the interesting data is located in the location_device. Multiple batteries are supported.
+
+# Usage
 ```
-from solarwatt_energymanager import EnergyManager
+import solarwatt_energymanager as em
 
-em = EnergyManager('192.168.1.123')
-em_guid = await em.test_connection()
-print(f'EnergyManager GUID={em_guid}')
-data = await em.get_data()
+mgr = em.EnergyManager('192.168.178.62')
+guid = await mgr.test_connection()
+print(f'EnergyManager GUID={guid}')
+data = await mgr.get_data()
 print(f'power_in={data.location_device.power_in}')
 print(f'power_out={data.location_device.power_out}')
 ```
