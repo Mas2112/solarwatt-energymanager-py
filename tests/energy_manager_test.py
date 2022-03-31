@@ -18,8 +18,8 @@ class ExceptionEnergyManager(EnergyManager):
 class EnergyManagerTest(IsolatedAsyncioTestCase):
     async def test_test_connection_succcess(self):
         em = TestEnergyManager('localhost')
-        error = await em.test_connection()
-        self.assertEqual('', error)
+        guid = await em.test_connection()
+        self.assertEqual('ERC05-000099999', guid)
 
     async def test_test_connection_error(self):
         em = ExceptionEnergyManager('localhost')

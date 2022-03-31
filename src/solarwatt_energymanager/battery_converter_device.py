@@ -1,7 +1,7 @@
 from typing import Final
 from . import Device
 
-class BatteryConverterDevice(Device):
+class BatteryConverterDevice:
     """The battery converter EnergyManager device. Contains info about flow to and from battery."""
 
     DEVICE_CLASS: Final = "com.kiwigrid.devices.batteryconverter.BatteryConverter"

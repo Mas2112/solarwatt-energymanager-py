@@ -2,7 +2,7 @@ from typing import Final
 from . import Device
 
 
-class EnergyManagerDevice(Device):
+class EnergyManagerDevice:
     """The EnergyManager device itself. Needed to get the device model and serial number."""
 
     DEVICE_CLASS: Final = "com.kiwigrid.devices.em.EnergyManager"

@@ -31,7 +31,7 @@ class EnergyManager:
                 raise CannotParseData
         except Exception:
             raise CannotParseData
-        return energy_manager.guid
+        return energy_manager.device.guid
 
     async def get_data(self) -> Optional[EnergyManagerData]:
         """Query the EnergyManager and return the parsed data."""

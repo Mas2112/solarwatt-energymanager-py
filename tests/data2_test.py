@@ -7,7 +7,7 @@ from src.solarwatt_energymanager import LocationDevice
 
 TESTJSON_FILENAME = os.path.join(os.path.dirname(__file__), 'data2.json')
 
-class Data1TestCase(unittest.TestCase):
+class Data2TestCase(unittest.TestCase):
     
     def setUp(self) -> None:
         self.jsondata = open(TESTJSON_FILENAME).read()
