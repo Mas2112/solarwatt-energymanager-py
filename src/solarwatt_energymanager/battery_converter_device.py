@@ -100,7 +100,7 @@ class BatteryConverterDevice:
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_VOLTAGE_BATTERY_CELL_MEAN)
 
     @property
-    def voltage_battery_cell_string(self) -> float:
+    def voltage_battery_string(self) -> float:
         """The battery string voltage, in V."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_VOLTAGE_BATTERY_STRING)
 

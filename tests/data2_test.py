@@ -74,7 +74,7 @@ class Data2TestCase(unittest.TestCase):
         self.assertEqual(560.4, battery.voltage_grm_in)
         self.assertEqual(98.5, battery.voltage_grm_out)
         self.assertEqual(4.097, battery.voltage_battery_cell_mean)
-        self.assertEqual(98.29999999999998, battery.voltage_battery_cell_string)
+        self.assertEqual(98.29999999999998, battery.voltage_battery_string)
         self.assertEqual(2.3768629316151318E8, battery.work_ac_in)
         self.assertEqual(5526783.750943889, battery.work_ac_out)
 

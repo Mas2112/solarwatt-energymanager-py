@@ -75,7 +75,7 @@ class Data3TestCase(unittest.TestCase):
         self.assertEqual(529.5, battery1.voltage_grm_in)
         self.assertEqual(0, battery1.voltage_grm_out)
         self.assertEqual(0, battery1.voltage_battery_cell_mean)
-        self.assertEqual(224.3, battery1.voltage_battery_cell_string)
+        self.assertEqual(224.3, battery1.voltage_battery_string)
         self.assertEqual(135948.58624138884, battery1.work_ac_in)
         self.assertEqual(127860.89102430471, battery1.work_ac_out)
         battery2 = devices[1]
@@ -94,7 +94,7 @@ class Data3TestCase(unittest.TestCase):
         self.assertEqual(631.0, battery2.voltage_grm_in)
         self.assertEqual(0, battery2.voltage_grm_out)
         self.assertEqual(0, battery2.voltage_battery_cell_mean)
-        self.assertEqual(216.0, battery2.voltage_battery_cell_string)
+        self.assertEqual(216.0, battery2.voltage_battery_string)
         self.assertEqual(129879.73267930634, battery2.work_ac_in)
         self.assertEqual(124903.30850069378, battery2.work_ac_out)
         battery3 = devices[2]
@@ -113,7 +113,7 @@ class Data3TestCase(unittest.TestCase):
         self.assertEqual(596.1, battery3.voltage_grm_in)
         self.assertEqual(0, battery3.voltage_grm_out)
         self.assertEqual(0, battery3.voltage_battery_cell_mean)
-        self.assertEqual(218.1, battery3.voltage_battery_cell_string)
+        self.assertEqual(218.1, battery3.voltage_battery_string)
         self.assertEqual(76935.05782958351, battery3.work_ac_in)
         self.assertEqual(71837.17347263735, battery3.work_ac_out)
 
