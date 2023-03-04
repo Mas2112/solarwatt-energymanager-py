@@ -33,6 +33,8 @@ from . import BatteryConverterDevice
 from . import Device
 from . import EnergyManagerDevice
 from . import LocationDevice
+from . import EVStationDevice
+from . import S0CounterDevice
 
 
 class EnergyManagerData:
@@ -85,3 +87,15 @@ class EnergyManagerData:
         """Get the BatteryConverterDevice objects."""
         devices = self.get_devices_by_class(BatteryConverterDevice.DEVICE_CLASS)
         return list(map(lambda device: BatteryConverterDevice(device), devices))
+
+    @property
+    def s0_counter_devices(self) -> Optional[List[S0CounterDevice]]:
+        """Get the S0CounterDevice objects."""
+        devices = self.get_devices_by_class(S0CounterDevice.DEVICE_CLASS)
+        return list(map(lambda device: S0CounterDevice(device), devices))
+
+    @property
+    def ev_station_devices(self) -> Optional[List[EVStationDevice]]:
+        """Get the EVStationDevice objects."""
+        devices = self.get_devices_by_class(EVStationDevice.DEVICE_CLASS)
+        return list(map(lambda device: EVStationDevice(device), devices))
