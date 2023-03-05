@@ -10,19 +10,21 @@ TESTJSON_FILENAME = os.path.join(os.path.dirname(__file__), 'data4.json')
 class Data4TestCase(unittest.TestCase):
     
     def setUp(self) -> None:
-        self.jsondata = open(TESTJSON_FILENAME).read()
+        self.jsondata = open(TESTJSON_FILENAME, encoding='utf-8').read()
         self.data = EnergyManagerData(json.loads(self.jsondata))
         return super().setUp()
 
     def test_energy_manager_device(self):
         emd = self.data.energy_manager_device
         self.assertEqual('ERC05-000009999', emd.device.guid)
+        self.assertEqual('ERC05-000009999', emd.device.get_device_name())
         self.assertEqual('ERC05', emd.model)
         self.assertEqual('7.32.1.0', emd.firmware)
 
     def test_location_device(self):
         location: LocationDevice = self.data.location_device
         self.assertEqual('aaaaaaaa-bbbb-cccc-dddd-000000000006', location.device.guid)
+        self.assertEqual('MeinePV', location.device.get_device_name())
         self.assertEqual(0, location.power_buffered)
         self.assertEqual(0, location.power_buffered_from_grid)
         self.assertEqual(0, location.power_buffered_from_producers)
@@ -61,6 +63,7 @@ class Data4TestCase(unittest.TestCase):
         self.assertEqual(1, len(devices))
         battery1 = devices[0]
         self.assertEqual('aaaaaaaa-bbbb-cccc-dddd-000000000007', battery1.device.guid)
+        self.assertEqual('MyReserve a3a3a3a3a3a3', battery1.device.get_device_name())
         self.assertEqual(0.01, battery1.current_battery_in)
         self.assertEqual(0, battery1.current_battery_out)
         self.assertEqual(0, battery1.current_grm_in)
@@ -85,6 +88,7 @@ class Data4TestCase(unittest.TestCase):
         self.assertEqual(2, len(devices))
         ev1 = devices[0]
         self.assertEqual('urn:keba:evstation:88888888', ev1.device.guid)
+        self.assertEqual('Keba P30 c-series 22222222', ev1.device.get_device_name())
         self.assertEqual(0, ev1.power_ac_in)
         self.assertEqual(0, ev1.power_ac_out)
         self.assertEqual(1911056.2, ev1.work_ac_in)
@@ -95,6 +99,7 @@ class Data4TestCase(unittest.TestCase):
         self.assertEqual(0, ev1.temperature_battery)
         ev2 = devices[1]
         self.assertEqual('urn:keba:evstation:99999999', ev2.device.guid)
+        self.assertEqual('Keba P30 x-series 99999999', ev2.device.get_device_name())
         self.assertEqual(0, ev2.power_ac_in)
         self.assertEqual(0, ev2.power_ac_out)
         self.assertEqual(4115966.3, ev2.work_ac_in)
@@ -110,6 +115,7 @@ class Data4TestCase(unittest.TestCase):
         self.assertEqual(1, len(devices))
         s0 = devices[0]
         self.assertEqual('aaaaaaaa-bbbb-cccc-dddd-000000000005', s0.device.guid)
+        self.assertEqual('S0-1 (Wärmepumpe)', s0.device.get_device_name())
         self.assertEqual(0, s0.power_in)
         self.assertEqual(0, s0.power_out)
         self.assertEqual(1403148.0, s0.work_in)

@@ -10,7 +10,7 @@ TESTJSON_FILENAME = os.path.join(os.path.dirname(__file__), 'data2.json')
 class Data2TestCase(unittest.TestCase):
     
     def setUp(self) -> None:
-        self.jsondata = open(TESTJSON_FILENAME).read()
+        self.jsondata = open(TESTJSON_FILENAME, encoding='utf-8').read()
         self.data = EnergyManagerData(json.loads(self.jsondata))
         return super().setUp()
 

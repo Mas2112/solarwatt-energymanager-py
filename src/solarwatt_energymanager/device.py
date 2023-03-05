@@ -1,8 +1,10 @@
-from typing import Any, Dict, List
+from typing import Any, Dict, Final, List
 
 
 class Device:
     """The base definition for an EnergyManager device."""
+
+    TAG_ID_NAME: Final[str] = "IdName"
 
     # The unique ID of the device.
     guid: str = ""
@@ -18,6 +20,12 @@ class Device:
         self.guid = item["guid"] if "guid" in item else ""
         self.device_classes = Device.get_item_device_classes(item)
         self.tag_items = Device.get_tag_items(item)
+    
+    def get_device_name(self) -> str:
+        device_name = self.get_tag_value_as_str(Device.TAG_ID_NAME).strip()
+        if not device_name:
+            return self.guid
+        return device_name
 
     def get_tag_value_as_str(self, tag_name) -> str:
         """Get the item tag value as a string."""

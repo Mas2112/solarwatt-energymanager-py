@@ -10,12 +10,13 @@ TESTJSON_FILENAME = os.path.join(os.path.dirname(__file__), 'data1.json')
 class Data1TestCase(unittest.TestCase):
     
     def setUp(self) -> None:
-        self.jsondata = open(TESTJSON_FILENAME).read()
+        self.jsondata = open(TESTJSON_FILENAME, encoding='utf-8').read()
         self.data = EnergyManagerData(json.loads(self.jsondata))
         return super().setUp()
 
     def test_energy_manager_device(self):
         emd = self.data.energy_manager_device
+        self.assertEqual('ERC05-000099999', emd.device.get_device_name())
         self.assertEqual('ERC05-000099999', emd.device.guid)
         self.assertEqual('ERC05', emd.model)
         self.assertEqual('7.32.1.0', emd.firmware)
@@ -23,6 +24,7 @@ class Data1TestCase(unittest.TestCase):
     def test_location_device(self):
         location: LocationDevice = self.data.location_device
         self.assertEqual('aaaaaaaa-bbbb-cccc-dddd-000000000003', location.device.guid)
+        self.assertEqual('Standort 1', location.device.get_device_name())
         self.assertEqual(3, location.power_buffered)
         self.assertEqual(1, location.power_buffered_from_grid)
         self.assertEqual(2, location.power_buffered_from_producers)

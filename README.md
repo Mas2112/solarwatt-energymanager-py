@@ -16,3 +16,21 @@ data = await mgr.get_data()
 print(f'power_in={data.location_device.power_in}')
 print(f'power_out={data.location_device.power_out}')
 ```
+
+# Changelog
+
+## [1.2.1] - 2023-03-05
+
+### Added
+- Added support to read IdName from Device via get_device_name()
+
+## [1.2.0] - 2023-03-04
+
+### Added
+- Added support for S0 counters and EV stations.
+
+## [1.1.0] - 2023-04-04
+
+### Changed
+- Renamed voltage_battery_cell_string to voltage_battery_string.
+
