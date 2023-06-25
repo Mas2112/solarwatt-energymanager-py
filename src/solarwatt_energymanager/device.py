@@ -1,4 +1,4 @@
-from typing import Any, Dict, Final, List
+from typing import Any, Dict, Final, List, Optional
 
 
 class Device:
@@ -27,28 +27,28 @@ class Device:
             return self.guid
         return device_name
 
-    def get_tag_value_as_str(self, tag_name) -> str:
+    def get_tag_value_as_str(self, tag_name) -> Optional[str]:
         """Get the item tag value as a string."""
         try:
             if tag_name in self.tag_items:
                 return str(self.tag_items[tag_name])
-            return ""
+            return None
         except Exception:
-            return ""
+            return None
 
-    def get_tag_value_as_int(self, tag_name) -> int:
+    def get_tag_value_as_int(self, tag_name) -> Optional[int]:
         """Get the item tag value as an int."""
         try:
             return int(float(self.tag_items[tag_name]))
         except Exception:
-            return int(0)
+            return None
 
-    def get_tag_value_as_float(self, tag_name) -> float:
+    def get_tag_value_as_float(self, tag_name) -> Optional[float]:
         """Get the item tag value as a float."""
         try:
             return float(self.tag_items[tag_name])
         except Exception:
-            return float(0)
+            return None
 
     @staticmethod
     def get_item_device_classes(item: dict) -> List[str]:

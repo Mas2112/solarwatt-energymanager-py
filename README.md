@@ -19,6 +19,11 @@ print(f'power_out={data.location_device.power_out}')
 
 # Changelog
 
+## [1.3.0] - 2023-06-25
+
+### Changed
+- get_tag_value_as_* methods return None instead of empty string or zero if an error occurs
+
 ## [1.2.1] - 2023-03-05
 
 ### Added
