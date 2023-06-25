@@ -30,86 +30,86 @@ class BatteryConverterDevice:
         self.device = device
 
     @property
-    def current_battery_in(self) -> float:
+    def current_battery_in(self) -> float | None:
         """The battery input current, in A."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_CURRENT_BATTERY_IN)
 
     @property
-    def current_battery_out(self) -> float:
+    def current_battery_out(self) -> float | None:
         """The battery output current, in A."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_CURRENT_BATTERY_OUT)
 
     @property
-    def current_grm_in(self) -> float:
+    def current_grm_in(self) -> float | None:
         """The GRM input current, in A."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_CURRENT_GRM_IN)
 
     @property
-    def current_grm_out(self) -> float:
+    def current_grm_out(self) -> float | None:
         """The GRM output current, in A."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_CURRENT_GRM_OUT)
 
     @property
-    def current_dc_string_in(self) -> float:
+    def current_dc_string_in(self) -> float | None:
         """The battery DC input current, in A."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_CURRENT_STRING_DC_IN)
 
     @property
-    def mode_converter(self) -> str:
+    def mode_converter(self) -> str | None:
         """The current charging mode: CHARGING, ???"""
         return self.device.get_tag_value_as_str(BatteryConverterDevice.TAG_MODE_CONVERTER)
 
     @property
-    def power_ac_in(self) -> float:
+    def power_ac_in(self) -> float | None:
         """The input AC power, in W."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_POWER_AC_IN)
 
     @property
-    def power_ac_out(self) -> float:
+    def power_ac_out(self) -> float | None:
         """The output AC power, in W."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_POWER_AC_OUT)
 
     @property
-    def state_of_charge(self) -> int:
+    def state_of_charge(self) -> int | None:
         """The current battery charge state, in %."""
         return self.device.get_tag_value_as_int(BatteryConverterDevice.TAG_STATE_OF_CHARGE)
 
     @property
-    def state_of_health(self) -> int:
+    def state_of_health(self) -> int | None:
         """The current battery health, in %."""
         return self.device.get_tag_value_as_int(BatteryConverterDevice.TAG_STATE_OF_HEALTH)
 
     @property
-    def temperature_battery(self) -> int:
+    def temperature_battery(self) -> int | None:
         """The current battery temperature, in C."""
         return self.device.get_tag_value_as_int(BatteryConverterDevice.TAG_TEMPERATURE_BATTERY)
 
     @property
-    def voltage_grm_in(self) -> float:
+    def voltage_grm_in(self) -> float | None:
         """The GRM input voltage, in V."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_VOLTAGE_GRM_IN)
 
     @property
-    def voltage_grm_out(self) -> float:
+    def voltage_grm_out(self) -> float | None:
         """The GRM output voltage, in V."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_VOLTAGE_GRM_OUT)
 
     @property
-    def voltage_battery_cell_mean(self) -> float:
+    def voltage_battery_cell_mean(self) -> float | None:
         """The mean battery cell voltage, in V."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_VOLTAGE_BATTERY_CELL_MEAN)
 
     @property
-    def voltage_battery_string(self) -> float:
+    def voltage_battery_string(self) -> float | None:
         """The battery string voltage, in V."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_VOLTAGE_BATTERY_STRING)
 
     @property
-    def work_ac_in(self) -> float:
+    def work_ac_in(self) -> float | None:
         """The accumulated amount of AC energy received, in Wh."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_WORK_AC_IN)
 
     @property
-    def work_ac_out(self) -> float:
+    def work_ac_out(self) -> float | None:
         """The accumulated amount of AC energy sent, in Wh."""
         return self.device.get_tag_value_as_float(BatteryConverterDevice.TAG_WORK_AC_OUT)

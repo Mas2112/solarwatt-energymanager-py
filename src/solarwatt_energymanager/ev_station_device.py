@@ -23,41 +23,41 @@ class EVStationDevice:
         self.device = device
 
     @property
-    def power_ac_in(self) -> float:
+    def power_ac_in(self) -> float | None:
         """The power flowing into the vehicle."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_POWER_AC_IN)
 
     @property
-    def power_ac_out(self) -> float:
+    def power_ac_out(self) -> float | None:
         """The power flowing out of the vehicle."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_POWER_AC_OUT)
 
     @property
-    def work_ac_in(self) -> float:
+    def work_ac_in(self) -> float | None:
         """The energy sent to the vehicle."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_WORK_AC_IN)
 
     @property
-    def work_ac_out(self) -> float:
+    def work_ac_out(self) -> float | None:
         """The energy pulled from the vehicle."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_WORK_AC_OUT)
 
     @property
-    def state_of_charge(self) -> float:
+    def state_of_charge(self) -> float | None:
         """The vehicle state of charge."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_STATE_OF_CHARGE)
 
     @property
-    def mode_station(self) -> str:
+    def mode_station(self) -> str | None:
         """The current mode of the station."""
         return self.device.get_tag_value_as_str(EVStationDevice.TAG_MODE_STATION)
 
     @property
-    def work_ac_in_session(self) -> float:
+    def work_ac_in_session(self) -> float | None:
         """The energy sent to the vehicle for the session."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_WORK_AC_IN_SESSION)
 
     @property
-    def temperature_battery(self) -> float:
+    def temperature_battery(self) -> float | None:
         """The battery temperature."""
         return self.device.get_tag_value_as_float(EVStationDevice.TAG_TEMPERATURE_BATTERY)

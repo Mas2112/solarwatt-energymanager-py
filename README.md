@@ -19,6 +19,11 @@ print(f'power_out={data.location_device.power_out}')
 
 # Changelog
 
+## [1.3.1] - 2023-06-25
+
+### Changed
+- Added None to type hint return values
+
 ## [1.3.0] - 2023-06-25
 
 ### Changed

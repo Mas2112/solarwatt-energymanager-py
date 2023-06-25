@@ -20,26 +20,26 @@ class S0CounterDevice:
         self.device = device
 
     @property
-    def power_in(self) -> float:
+    def power_in(self) -> float | None:
         """The power coming in, in W."""
         return self.device.get_tag_value_as_float(S0CounterDevice.TAG_POWER_IN)
 
     @property
-    def power_out(self) -> float:
+    def power_out(self) -> float | None:
         """The power going out, in W."""
         return self.device.get_tag_value_as_float(S0CounterDevice.TAG_POWER_OUT)
 
     @property
-    def work_in(self) -> float:
+    def work_in(self) -> float | None:
         """The energy coming in, in Wh."""
         return self.device.get_tag_value_as_float(S0CounterDevice.TAG_WORK_IN)
 
     @property
-    def work_out(self) -> float:
+    def work_out(self) -> float | None:
         """The energy going out, in Wh."""
         return self.device.get_tag_value_as_float(S0CounterDevice.TAG_WORK_OUT)
 
     @property
-    def count_pulses(self) -> int:
+    def count_pulses(self) -> int | None:
         """The pulse counter."""
         return self.device.get_tag_value_as_int(S0CounterDevice.TAG_COUNT_PULSES)

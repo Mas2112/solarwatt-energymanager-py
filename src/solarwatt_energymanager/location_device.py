@@ -49,151 +49,151 @@ class LocationDevice:
         self.device = device
 
     @property
-    def power_buffered(self) -> float:
+    def power_buffered(self) -> float | None:
         """The power being stored to battery, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_BUFFERED)
 
     @property
-    def power_buffered_from_grid(self) -> float:
+    def power_buffered_from_grid(self) -> float | None:
         """The power being stored to battery from the grid, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_BUFFERED_FROM_GRID)
 
     @property
-    def power_buffered_from_producers(self) -> float:
+    def power_buffered_from_producers(self) -> float | None:
         """The power being stored to battery from the producers (eg - solar), in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_BUFFERED_FROM_PRODUCERS)
 
     @property
-    def power_consumed(self) -> float:
+    def power_consumed(self) -> float | None:
         """The power being consumed, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_CONSUMED)
 
     @property
-    def power_consumed_from_grid(self) -> float:
+    def power_consumed_from_grid(self) -> float | None:
         """The power being consumed from the grid, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_CONSUMED_FROM_GRID)
 
     @property
-    def power_consumed_from_producers(self) -> float:
+    def power_consumed_from_producers(self) -> float | None:
         """The power being consumed from producers (eg - solar), in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_CONSUMED_FROM_PRODUCERS)
 
     @property
-    def power_consumed_from_storage(self) -> float:
+    def power_consumed_from_storage(self) -> float | None:
         """The power being consumed from battery, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_CONSUMED_FROM_STORAGE)
 
     @property
-    def power_in(self) -> float:
+    def power_in(self) -> float | None:
         """The power coming in from the grid, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_IN)
 
     @property
-    def power_out(self) -> float:
+    def power_out(self) -> float | None:
         """The power going out to the grid, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_OUT)
 
     @property
-    def power_out_from_producers(self) -> float:
+    def power_out_from_producers(self) -> float | None:
         """The power going out to the grid from producers (eg - solar), in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_OUT_FROM_PRODUCERS)
 
     @property
-    def power_out_from_storage(self) -> float:
+    def power_out_from_storage(self) -> float | None:
         """The power going out to the grid from battery, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_OUT_FROM_STORAGE)
 
     @property
-    def power_produced(self) -> float:
+    def power_produced(self) -> float | None:
         """The power produced (eg - solar), in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_PRODUCED)
 
     @property
-    def power_released(self) -> float:
+    def power_released(self) -> float | None:
         """The power relased from the battery, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_RELEASED)
 
     @property
-    def power_self_consumed(self) -> float:
+    def power_self_consumed(self) -> float | None:
         """The power self consumed from producers, in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_SELF_CONSUMED)
 
     @property
-    def power_self_supplied(self) -> float:
+    def power_self_supplied(self) -> float | None:
         """The power self supplied (to storage?), in W."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_POWER_SELF_SUPPLIED)
 
     @property
-    def work_buffered(self) -> float:
+    def work_buffered(self) -> float | None:
         """The energy being stored to battery, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_BUFFERED)
 
     @property
-    def work_buffered_from_grid(self) -> float:
+    def work_buffered_from_grid(self) -> float | None:
         """The energy being stored to battery from the grid, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_BUFFERED_FROM_GRID)
 
     @property
-    def work_buffered_from_producers(self) -> float:
+    def work_buffered_from_producers(self) -> float | None:
         """The energy being stored to battery from the producers (eg - solar), in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_BUFFERED_FROM_PRODUCERS)
 
     @property
-    def work_consumed(self) -> float:
+    def work_consumed(self) -> float | None:
         """The energy being consumed, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_CONSUMED)
 
     @property
-    def work_consumed_from_grid(self) -> float:
+    def work_consumed_from_grid(self) -> float | None:
         """The energy being consumed from the grid, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_CONSUMED_FROM_GRID)
 
     @property
-    def work_consumed_from_producers(self) -> float:
+    def work_consumed_from_producers(self) -> float | None:
         """The energy being consumed from producers (eg - solar), in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_CONSUMED_FROM_PRODUCERS)
 
     @property
-    def work_consumed_from_storage(self) -> float:
+    def work_consumed_from_storage(self) -> float | None:
         """The energy being consumed from battery, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_CONSUMED_FROM_STORAGE)
 
     @property
-    def work_in(self) -> float:
+    def work_in(self) -> float | None:
         """The energy coming in from the grid, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_IN)
 
     @property
-    def work_out(self) -> float:
+    def work_out(self) -> float | None:
         """The energy going out to the grid, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_OUT)
 
     @property
-    def work_out_from_producers(self) -> float:
+    def work_out_from_producers(self) -> float | None:
         """The energy going out to the grid from producers (eg - solar), in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_OUT_FROM_PRODUCERS)
 
     @property
-    def work_out_from_storage(self) -> float:
+    def work_out_from_storage(self) -> float | None:
         """The energy going out to the grid from battery, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_OUT_FROM_STORAGE)
 
     @property
-    def work_produced(self) -> float:
+    def work_produced(self) -> float | None:
         """The energy produced (eg - solar), in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_PRODUCED)
 
     @property
-    def work_released(self) -> float:
+    def work_released(self) -> float | None:
         """The energy relased from the battery, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_RELEASED)
 
     @property
-    def work_self_consumed(self) -> float:
+    def work_self_consumed(self) -> float | None:
         """The energy self consumed from producers, in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_SELF_CONSUMED)
 
     @property
-    def work_self_supplied(self) -> float:
+    def work_self_supplied(self) -> float | None:
         """The energy self supplied (to storage?), in Wh."""
         return self.device.get_tag_value_as_float(LocationDevice.TAG_WORK_SELF_SUPPLIED)
