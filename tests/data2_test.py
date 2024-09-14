@@ -8,8 +8,9 @@ from src.solarwatt_energymanager import LocationDevice
 TESTJSON_FILENAME = os.path.join(os.path.dirname(__file__), 'data2.json')
 
 class Data2TestCase(unittest.TestCase):
-    
+
     def setUp(self) -> None:
+        print('test2 Setup')
         self.jsondata = open(TESTJSON_FILENAME, encoding='utf-8').read()
         self.data = EnergyManagerData(json.loads(self.jsondata))
         return super().setUp()
@@ -64,7 +65,7 @@ class Data2TestCase(unittest.TestCase):
         self.assertEqual(0, battery.current_battery_out)
         self.assertEqual(0.56, battery.current_grm_in)
         self.assertEqual(-3.08, battery.current_grm_out)
-        self.assertEqual(0, battery.current_dc_string_in)
+        self.assertEqual(None, battery.current_dc_string_in)
         self.assertEqual('CHARGING', battery.mode_converter)
         self.assertEqual(414.18704999999983, battery.power_ac_in)
         self.assertEqual(0, battery.power_ac_out)

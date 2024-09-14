@@ -19,6 +19,11 @@ print(f'power_out={data.location_device.power_out}')
 
 # Changelog
 
+## [1.4.0] - 2024-09-14
+
+### Changed
+- Added support for Power Meter device
+
 ## [1.3.1] - 2023-06-25
 
 ### Changed

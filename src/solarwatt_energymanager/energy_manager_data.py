@@ -35,14 +35,14 @@ from . import EnergyManagerDevice
 from . import LocationDevice
 from . import EVStationDevice
 from . import S0CounterDevice
+from . import PowerMeterDevice
 
 
 class EnergyManagerData:
     """Contains all of the energy manager devices and the getter methods."""
 
-    devices: Dict[str, Device] = {}
-
     def __init__(self, json: dict):
+        self.devices: Dict[str, Device] = {}
         self.load_json(json)
 
     def load_json(self, json: dict) -> None:
@@ -99,3 +99,9 @@ class EnergyManagerData:
         """Get the EVStationDevice objects."""
         devices = self.get_devices_by_class(EVStationDevice.DEVICE_CLASS)
         return list(map(lambda device: EVStationDevice(device), devices))
+
+    @property
+    def power_meter_devices(self) -> Optional[List[PowerMeterDevice]]:
+        """Get the PowerMeterDevice objects."""
+        devices = self.get_devices_by_class(PowerMeterDevice.DEVICE_CLASS)
+        return list(map(lambda device: PowerMeterDevice(device), devices))
