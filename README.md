@@ -19,6 +19,11 @@ print(f'power_out={data.location_device.power_out}')
 
 # Changelog
 
+## [1.4.1] - 2025-03-16
+
+### Changed
+- Disabled content type check when querying data from Energy Manager.
+
 ## [1.4.0] - 2024-09-14
 
 ### Changed

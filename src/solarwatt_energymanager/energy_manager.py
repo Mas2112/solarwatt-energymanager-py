@@ -54,7 +54,7 @@ class EnergyManager:
         async with aiohttp.ClientSession() as session:
             async with session.get(self._URL) as response:
                 _LOGGER.debug("Received response status code %s", response.status)
-                return await response.json()
+                return await response.json(content_type=None)
 
 
 class CannotConnect(Exception):
